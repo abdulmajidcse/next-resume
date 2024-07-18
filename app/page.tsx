@@ -6,6 +6,8 @@ import {
   NavbarLink,
   NavbarToggle,
 } from "flowbite-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -30,7 +32,10 @@ export default function Home() {
         </NavbarCollapse>
       </Navbar>
 
-      <p className="p-4">Welcome to Next Resume!</p>
+      <div className="p-4">
+        <p>Welcome to Next Resume!</p>
+        <FontAwesomeIcon icon={faEnvelope} className="w-10" />
+      </div>
     </main>
   );
 }
