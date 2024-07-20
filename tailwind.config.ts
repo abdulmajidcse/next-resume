@@ -9,7 +9,13 @@ const config: Config = {
     flowbite.content(),
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "playfair-display": ["Playfair Display", "sans-serif"],
+        "libre-baskerville": ["Libre Baskerville", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+      },
+    },
   },
   plugins: [flowbite.plugin()],
 };
