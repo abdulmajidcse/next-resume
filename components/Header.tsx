@@ -1,8 +1,11 @@
 "use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 export default function Header() {
+  const pathname = usePathname();
   const [mobileMenuOpenIs, setMobileMenuOpenIs] = useState<Boolean>(false);
 
   const toggleMobileMenu = () =>
@@ -12,14 +15,14 @@ export default function Header() {
     <>
       <nav className="pt-6 md:p-6 border-b border-slate-900/10">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
-          <a
-            href="./index.html"
+          <Link
+            href="/"
             className="ml-4 md:ml-0 mb-8 md:mb-0 text-slate-800 hover:text-slate-500"
           >
             <span className="font-lato self-center text-2xl font-extrabold whitespace-nowrap">
               Abdul Majid
             </span>
-          </a>
+          </Link>
           <div className="flex gap-2 pr-4 md:pr-0 pb-8 md:pb-0 font-lato">
             <button
               data-collapse-toggle="navbar-dropdown"
@@ -68,36 +71,44 @@ export default function Header() {
                 </span>
               </li>
               <li>
-                <a
-                  href="./index.html"
-                  className="block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500 font-extrabold"
+                <Link
+                  href="/"
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500 ${
+                    pathname === "/" && "font-extrabold"
+                  }`}
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="./socials.html"
-                  className="block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500"
+                <Link
+                  href="/socials"
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500 ${
+                    pathname === "/socials" && "font-extrabold"
+                  }`}
                 >
                   Socials
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="./projects.html"
-                  className="block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500"
+                <Link
+                  href="/projects"
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500 ${
+                    pathname === "/projects" && "font-extrabold"
+                  }`}
                 >
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="./contact.html"
-                  className="block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500"
+                <Link
+                  href="/contact"
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500 ${
+                    pathname === "/contact" && "font-extrabold"
+                  }`}
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
