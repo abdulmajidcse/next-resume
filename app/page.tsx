@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -257,32 +259,32 @@ export default function Home() {
             </p>
             <div>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Analyze System
-                and Design According to Requirement.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Analyze System and Design According to Requirement.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Design Database
-                Entity Relationship Diagram (ERD).
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Design Database Entity Relationship Diagram (ERD).
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Create RESTful
-                API using PHP, Laravel.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Create RESTful API using PHP, Laravel.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Vuejs to build
-                Single Page Application.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Vuejs to build Single Page Application.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Used Bootstrap
-                for frontend design.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
+                Bootstrap for frontend design.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Used MySQL as a
-                primary database.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
+                MySQL as a primary database.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Utilized: PHP,
-                MySQL, Laravel, Vuejs.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Utilized: PHP, MySQL, Laravel, Vuejs.
               </p>
             </div>
           </div>
@@ -317,28 +319,28 @@ export default function Home() {
             </p>
             <div>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Analyze System
-                and Design According to Requirement.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Analyze System and Design According to Requirement.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Design Database
-                Entity Relationship Diagram (ERD).
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Design Database Entity Relationship Diagram (ERD).
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Create RESTful
-                API using PHP, Laravel.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Create RESTful API using PHP, Laravel.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Used Bootstrap
-                and TailwindCSS for frontend design.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
+                Bootstrap and TailwindCSS for frontend design.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Used MySQL as a
-                primary database.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
+                MySQL as a primary database.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Utilized: PHP,
-                MySQL, Laravel, Livewire.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Utilized: PHP, MySQL, Laravel, Livewire.
               </p>
             </div>
           </div>
@@ -373,28 +375,29 @@ export default function Home() {
             </p>
             <div>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Analyze System
-                and Design According to Requirement.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Analyze System and Design According to Requirement.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Design Database
-                Entity Relationship Diagram (ERD).
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Design Database Entity Relationship Diagram (ERD).
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Develop
-                application using PHP, Laravel, jQuery, Axios.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Develop application using PHP, Laravel, jQuery, Axios.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Used
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
                 TailwindCSS for frontend design.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Used MySQL as a
-                primary database.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
+                MySQL as a primary database.
               </p>
               <p>
-                <i className="fa-solid fa-check text-lg mr-1" /> Utilized: PHP,
-                MySQL, Laravel, jQuery, Queue, Task Scheduling, VPS Server.
+                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                Utilized: PHP, MySQL, Laravel, jQuery, Queue, Task Scheduling,
+                VPS Server.
               </p>
             </div>
           </div>
@@ -515,16 +518,20 @@ export default function Home() {
         <div className="font-libre-baskerville text-lg text-slate-800 mt-7 mb-10">
           <div>
             <p>
-              <i className="fa-solid fa-check text-lg mr-1" /> Programming
+              <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+              Programming
             </p>
             <p>
-              <i className="fa-solid fa-check text-lg mr-1" /> Problem Solving
+              <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+              Problem Solving
             </p>
             <p>
-              <i className="fa-solid fa-check text-lg mr-1" /> Research
+              <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+              Research
             </p>
             <p>
-              <i className="fa-solid fa-check text-lg mr-1" /> Traveling
+              <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+              Traveling
             </p>
           </div>
         </div>
