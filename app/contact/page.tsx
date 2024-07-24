@@ -1,3 +1,9 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact | Md Abdul Majid - Software Engineer",
+};
+
 export default function Contact() {
   return (
     <>

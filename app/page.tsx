@@ -1,6 +1,11 @@
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About | Md Abdul Majid - Software Engineer",
+};
 
 export default function Home() {
   return (
