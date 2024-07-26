@@ -16,8 +16,8 @@ export default function Home() {
           <Image
             src="/abdul-majid.jpg"
             alt="Abdul Majid"
-            width={100}
-            height={100}
+            width={250}
+            height={250}
             className="rounded-full shadow-xl w-[250px] h-[250px] border-[0.5rem] border-slate-200"
           />
         </div>
@@ -264,31 +264,52 @@ export default function Home() {
             </p>
             <div>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Analyze System and Design According to Requirement.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Design Database Entity Relationship Diagram (ERD).
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Create RESTful API using PHP, Laravel.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Vuejs to build Single Page Application.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
-                Bootstrap for frontend design.
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Used Bootstrap for frontend design.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
-                MySQL as a primary database.
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Used MySQL as a primary database.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Utilized: PHP, MySQL, Laravel, Vuejs.
               </p>
             </div>
@@ -324,27 +345,45 @@ export default function Home() {
             </p>
             <div>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Analyze System and Design According to Requirement.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Design Database Entity Relationship Diagram (ERD).
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Create RESTful API using PHP, Laravel.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
-                Bootstrap and TailwindCSS for frontend design.
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Used Bootstrap and TailwindCSS for frontend design.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
-                MySQL as a primary database.
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Used MySQL as a primary database.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Utilized: PHP, MySQL, Laravel, Livewire.
               </p>
             </div>
@@ -380,27 +419,45 @@ export default function Home() {
             </p>
             <div>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Analyze System and Design According to Requirement.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Design Database Entity Relationship Diagram (ERD).
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Develop application using PHP, Laravel, jQuery, Axios.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
-                TailwindCSS for frontend design.
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Used TailwindCSS for frontend design.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" /> Used
-                MySQL as a primary database.
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Used MySQL as a primary database.
               </p>
               <p>
-                <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
                 Utilized: PHP, MySQL, Laravel, jQuery, Queue, Task Scheduling,
                 VPS Server.
               </p>
@@ -523,19 +580,31 @@ export default function Home() {
         <div className="font-libre-baskerville text-lg text-slate-800 mt-7 mb-10">
           <div>
             <p>
-              <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+              <FontAwesomeIcon
+                icon={faCheck}
+                className="inline-block w-5 text-lg mr-1"
+              />{" "}
               Programming
             </p>
             <p>
-              <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+              <FontAwesomeIcon
+                icon={faCheck}
+                className="inline-block w-5 text-lg mr-1"
+              />{" "}
               Problem Solving
             </p>
             <p>
-              <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+              <FontAwesomeIcon
+                icon={faCheck}
+                className="inline-block w-5 text-lg mr-1"
+              />{" "}
               Research
             </p>
             <p>
-              <FontAwesomeIcon icon={faCheck} className="text-lg mr-1" />{" "}
+              <FontAwesomeIcon
+                icon={faCheck}
+                className="inline-block w-5 text-lg mr-1"
+              />{" "}
               Traveling
             </p>
           </div>
