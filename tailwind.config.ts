@@ -11,9 +11,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        "playfair-display": ["Playfair Display", "sans-serif"],
-        "libre-baskerville": ["Libre Baskerville", "sans-serif"],
-        lato: ["Lato", "sans-serif"],
+        "playfair-display": ["var(--font-playfair-display)"],
+        "libre-baskerville": ["var(--font-libre-baskerville)"],
+        lato: ["var(--font-lato)"],
       },
     },
   },
