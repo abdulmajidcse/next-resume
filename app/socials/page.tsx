@@ -21,7 +21,7 @@ export default function Socials() {
           </p>
           <ul className="list-disc list-inside font-libre-baskerville text-lg leading-10 marker:text-slate-300">
             <li>
-              Facebook:
+              Facebook:{" "}
               <a
                 href="https://facebook.com/abdulmajidcse"
                 target="_blank"
@@ -31,7 +31,7 @@ export default function Socials() {
               </a>
             </li>
             <li>
-              Twitter:
+              Twitter:{" "}
               <a
                 href="https://twitter.com/abdulmajidcse"
                 target="_blank"
@@ -41,7 +41,7 @@ export default function Socials() {
               </a>
             </li>
             <li>
-              LinkedIn:
+              LinkedIn:{" "}
               <a
                 href="https://linkedin.com/in/abdulmajidcse"
                 target="_blank"
@@ -51,7 +51,7 @@ export default function Socials() {
               </a>
             </li>
             <li>
-              GitHub:
+              GitHub:{" "}
               <a
                 href="https://github.com/abdulmajidcse"
                 target="_blank"
@@ -61,7 +61,7 @@ export default function Socials() {
               </a>
             </li>
             <li>
-              Pinkary:
+              Pinkary:{" "}
               <a
                 href="https://pinkary.com/@abdulmajidcse"
                 target="_blank"
@@ -71,7 +71,7 @@ export default function Socials() {
               </a>
             </li>
             <li>
-              YouTube:
+              YouTube:{" "}
               <a
                 href="https://youtube.com/@abdulmajidcse"
                 target="_blank"
@@ -81,7 +81,7 @@ export default function Socials() {
               </a>
             </li>
             <li>
-              Hackerrank:
+              Hackerrank:{" "}
               <a
                 href="https://hackerrank.com/profile/abdulmajidcse"
                 target="_blank"
@@ -91,7 +91,7 @@ export default function Socials() {
               </a>
             </li>
             <li>
-              Medium:
+              Medium:{" "}
               <a
                 href="https://medium.com/@abdulmajidcse"
                 target="_blank"
@@ -101,7 +101,7 @@ export default function Socials() {
               </a>
             </li>
             <li>
-              Packagist:
+              Packagist:{" "}
               <a
                 href="https://packagist.org/packages/abdulmajidcse"
                 target="_blank"

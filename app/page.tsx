@@ -39,7 +39,7 @@ export default function Home() {
         <div className="font-libre-baskerville text-lg text-slate-900 mt-7">
           <p className="mb-5">
             I am a backend-heavy full-stack developer and a self-learner. I am
-            experienced for more than 3 years and working with
+            experienced for more than 3 years and working with{" "}
             <a
               href="https://laravel.com"
               target="_blank"
@@ -47,7 +47,7 @@ export default function Home() {
             >
               Laravel
             </a>
-            ,
+            ,{" "}
             <a
               href="https://laravel-livewire.com"
               target="_blank"
@@ -55,7 +55,7 @@ export default function Home() {
             >
               Livewire
             </a>
-            ,
+            ,{" "}
             <a
               href="https://jquery.com/"
               target="_blank"
@@ -63,7 +63,7 @@ export default function Home() {
             >
               jQuery
             </a>
-            , and
+            , and{" "}
             <a
               href="https://alpinejs.dev/"
               target="_blank"
@@ -71,7 +71,7 @@ export default function Home() {
             >
               AlpineJS
             </a>
-            . I am also experienced in
+            . I am also experienced in{" "}
             <a
               href="https://vuejs.org/"
               target="_blank"
@@ -79,7 +79,7 @@ export default function Home() {
             >
               VueJS
             </a>
-            ,
+            ,{" "}
             <a
               href="https://laravel.com/docs/10.x/queues"
               target="_blank"
@@ -87,7 +87,7 @@ export default function Home() {
             >
               Queue
             </a>
-            ,
+            ,{" "}
             <a
               href="https://laravel.com/docs/10.x/scheduling"
               target="_blank"
@@ -95,7 +95,7 @@ export default function Home() {
             >
               Task Scheduling
             </a>
-            , VPS Server, CI/CD, and Docker (Basic). I love the beauty of
+            , VPS Server, CI/CD, and Docker (Basic). I love the beauty of{" "}
             <a
               href="https://laravel.com/docs/10.x/eloquent"
               target="_blank"
@@ -500,7 +500,7 @@ export default function Home() {
         <div className="mt-8">
           <div className="grid md:grid-cols-2">
             <div>
-              <h3 className="font-lato uppercase font-extrabold text-lg text-slate-900">
+              <h3 className="font-lato uppercase font-bold text-lg text-slate-900">
                 <a
                   href="https://diu.ac/"
                   target="_blank"
@@ -509,7 +509,7 @@ export default function Home() {
                   Dhaka International University
                 </a>
               </h3>
-              <p className="font-libre-baskerville font-bold text-lg text-slate-900">
+              <p className="font-libre-baskerville font-semibold text-lg text-slate-900">
                 Bachelor of Science
               </p>
             </div>
@@ -525,7 +525,7 @@ export default function Home() {
         <div className="mt-8">
           <div className="grid md:grid-cols-2">
             <div>
-              <h3 className="font-lato uppercase font-extrabold text-lg text-slate-900">
+              <h3 className="font-lato uppercase font-bold text-lg text-slate-900">
                 <a
                   href="https://europeanit-inst.com/"
                   target="_blank"
@@ -534,7 +534,7 @@ export default function Home() {
                   European IT Solutions Institute
                 </a>
               </h3>
-              <p className="font-libre-baskerville font-bold text-lg text-slate-900">
+              <p className="font-libre-baskerville font-semibold text-lg text-slate-900">
                 Industrial Attachment
               </p>
             </div>
@@ -549,7 +549,7 @@ export default function Home() {
         <div className="mt-8">
           <div className="grid md:grid-cols-2">
             <div>
-              <h3 className="font-lato uppercase font-extrabold text-lg text-slate-900">
+              <h3 className="font-lato uppercase font-bold text-lg text-slate-900">
                 <a
                   href="https://kpik.gov.bd/"
                   target="_blank"
@@ -558,7 +558,7 @@ export default function Home() {
                   Kurigram Polytechnic Institute
                 </a>
               </h3>
-              <p className="font-libre-baskerville font-bold text-lg text-slate-900">
+              <p className="font-libre-baskerville font-semibold text-lg text-slate-900">
                 Diploma in Engineering
               </p>
             </div>
