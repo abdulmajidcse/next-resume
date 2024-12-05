@@ -21,26 +21,6 @@ export default function Socials() {
           </p>
           <ul className="list-disc list-inside font-libre-baskerville text-lg leading-10 marker:text-slate-300">
             <li>
-              Facebook:{" "}
-              <a
-                href="https://facebook.com/abdulmajidcse"
-                target="_blank"
-                className="font-bold underline"
-              >
-                facebook.com/abdulmajidcse
-              </a>
-            </li>
-            <li>
-              Twitter:{" "}
-              <a
-                href="https://twitter.com/abdulmajidcse"
-                target="_blank"
-                className="font-bold underline"
-              >
-                twitter.com/abdulmajidcse
-              </a>
-            </li>
-            <li>
               LinkedIn:{" "}
               <a
                 href="https://linkedin.com/in/abdulmajidcse"
@@ -58,26 +38,6 @@ export default function Socials() {
                 className="font-bold underline"
               >
                 github.com/abdulmajidcse
-              </a>
-            </li>
-            <li>
-              Pinkary:{" "}
-              <a
-                href="https://pinkary.com/@abdulmajidcse"
-                target="_blank"
-                className="font-bold underline"
-              >
-                pinkary.com/@abdulmajidcse
-              </a>
-            </li>
-            <li>
-              YouTube:{" "}
-              <a
-                href="https://youtube.com/@abdulmajidcse"
-                target="_blank"
-                className="font-bold underline"
-              >
-                youtube.com/@abdulmajidcse
               </a>
             </li>
             <li>
@@ -108,6 +68,47 @@ export default function Socials() {
                 className="font-bold underline"
               >
                 packagist.org/packages/abdulmajidcse
+              </a>
+            </li>
+            <li>
+              Facebook:{" "}
+              <a
+                href="https://facebook.com/abdulmajidcse"
+                target="_blank"
+                className="font-bold underline"
+              >
+                facebook.com/abdulmajidcse
+              </a>
+            </li>
+            <li>
+              YouTube:{" "}
+              <a
+                href="https://youtube.com/@abdulmajidcse"
+                target="_blank"
+                className="font-bold underline"
+              >
+                youtube.com/@abdulmajidcse
+              </a>
+            </li>
+            <li>
+              Twitter:{" "}
+              <a
+                href="https://twitter.com/abdulmajidcse"
+                target="_blank"
+                className="font-bold underline"
+              >
+                twitter.com/abdulmajidcse
+              </a>
+            </li>
+
+            <li>
+              Pinkary:{" "}
+              <a
+                href="https://pinkary.com/@abdulmajidcse"
+                target="_blank"
+                className="font-bold underline"
+              >
+                pinkary.com/@abdulmajidcse
               </a>
             </li>
           </ul>

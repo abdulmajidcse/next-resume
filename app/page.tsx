@@ -251,7 +251,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-start md:text-end font-libre-baskerville font-semibold text-sm text-slate-900">
-              Mar 03, 2024 - Present
+              March 2024 - Present
             </div>
           </div>
           <div className="my-4 font-libre-baskerville text-slate-800">
@@ -319,80 +319,6 @@ export default function Home() {
           <div className="grid md:grid-cols-2">
             <div>
               <h3 className="font-libre-baskerville font-bold text-lg text-slate-900">
-                Programmer - Remotely
-              </h3>
-              <p className="font-lato uppercase font-bold text-xl text-slate-900">
-                <a
-                  href="https://createchbd.com/"
-                  target="_blank"
-                  className="hover:underline"
-                >
-                  Creative Technology
-                </a>
-              </p>
-            </div>
-            <div className="text-start md:text-end font-libre-baskerville font-semibold text-sm text-slate-900">
-              Sep 01, 2020 - Feb 29, 2024
-            </div>
-          </div>
-          <div className="my-4 font-libre-baskerville text-slate-800">
-            <p className="mb-3">
-              As a developer, I design and develop a web application for
-              Government and Private Institutes
-            </p>
-            <p className="mb-3">
-              We used the following tools and technologies for development.
-            </p>
-            <div>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Analyze System and Design According to Requirement.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Design Database Entity Relationship Diagram (ERD).
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Create RESTful API using PHP, Laravel.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Used Bootstrap and TailwindCSS for frontend design.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Used MySQL as a primary database.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Utilized: PHP, MySQL, Laravel, Livewire.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="mt-8">
-          <div className="grid md:grid-cols-2">
-            <div>
-              <h3 className="font-libre-baskerville font-bold text-lg text-slate-900">
                 Laravel Developer - Remotely
               </h3>
               <p className="font-lato uppercase font-bold text-xl text-slate-900">
@@ -406,7 +332,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-start md:text-end font-libre-baskerville font-semibold text-sm text-slate-900">
-              Sep 24, 2023 - Jan 31, 2024
+              September 2023 - January 2024
             </div>
           </div>
           <div className="my-4 font-libre-baskerville text-slate-800">
@@ -468,27 +394,74 @@ export default function Home() {
           <div className="grid md:grid-cols-2">
             <div>
               <h3 className="font-libre-baskerville font-bold text-lg text-slate-900">
-                Freelancer
+                Programmer - Remotely
               </h3>
               <p className="font-lato uppercase font-bold text-xl text-slate-900">
                 <a
-                  href="https://fiverr.com/"
+                  href="https://createchbd.com/"
                   target="_blank"
                   className="hover:underline"
                 >
-                  Fiverr
+                  Creative Technology
                 </a>
               </p>
             </div>
             <div className="text-start md:text-end font-libre-baskerville font-semibold text-sm text-slate-900">
-              Dec 2022 - Dec 2023
+              September 2020 - February 2024
             </div>
           </div>
           <div className="my-4 font-libre-baskerville text-slate-800">
             <p className="mb-3">
-              As a Laravel developer, I customize Fiverr client website and
-              application with their requirements.
+              As a developer, I design and develop a web application for
+              Government and Private Institutes
             </p>
+            <p className="mb-3">
+              We used the following tools and technologies for development.
+            </p>
+            <div>
+              <p>
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Analyze System and Design According to Requirement.
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Design Database Entity Relationship Diagram (ERD).
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Create RESTful API using PHP, Laravel.
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Used Bootstrap and TailwindCSS for frontend design.
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Used MySQL as a primary database.
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="inline-block w-5 text-lg mr-1"
+                />{" "}
+                Utilized: PHP, MySQL, Laravel, Livewire.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -514,36 +487,12 @@ export default function Home() {
               </p>
             </div>
             <div className="text-start md:text-end font-libre-baskerville font-semibold text-sm text-slate-900">
-              Aug 2022 - Present
+              August 2022 - Present
             </div>
           </div>
           <div className="my-4 font-libre-baskerville text-slate-800">
             <p>Computer Science and Engineering</p>
             <p>CGPA: (Studying)</p>
-          </div>
-        </div>
-        <div className="mt-8">
-          <div className="grid md:grid-cols-2">
-            <div>
-              <h3 className="font-lato uppercase font-bold text-lg text-slate-900">
-                <a
-                  href="https://europeanit-inst.com/"
-                  target="_blank"
-                  className="hover:underline"
-                >
-                  European IT Solutions Institute
-                </a>
-              </h3>
-              <p className="font-libre-baskerville font-semibold text-lg text-slate-900">
-                Industrial Attachment
-              </p>
-            </div>
-            <div className="text-start md:text-end font-libre-baskerville font-semibold text-sm text-slate-900">
-              Jan 2020 - Mar 2020
-            </div>
-          </div>
-          <div className="my-4 font-libre-baskerville text-slate-800">
-            <p>Web Development with Laravel</p>
           </div>
         </div>
         <div className="mt-8">
@@ -563,7 +512,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-start md:text-end font-libre-baskerville font-semibold text-sm text-slate-900">
-              Aug 2016 - Dec 2020
+              August 2016 - December 2020
             </div>
           </div>
           <div className="my-4 font-libre-baskerville text-slate-800">
@@ -599,13 +548,6 @@ export default function Home() {
                 className="inline-block w-5 text-lg mr-1"
               />{" "}
               Research
-            </p>
-            <p>
-              <FontAwesomeIcon
-                icon={faCheck}
-                className="inline-block w-5 text-lg mr-1"
-              />{" "}
-              Traveling
             </p>
           </div>
         </div>
