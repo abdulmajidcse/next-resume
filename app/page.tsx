@@ -14,11 +14,11 @@ export default function Home() {
       <section className="section">
         <div className="flex justify-center">
           <Image
-            src="/abdul-majid.jpg"
+            src="/abdulmajid.jpg"
             alt="Abdul Majid"
             width={250}
             height={250}
-            className="rounded-full shadow-xl w-[250px] h-[250px] border-[0.5rem] border-slate-200"
+            className="rounded-full shadow-xl w-[250px] h-[250px] border-[0.5rem] border-slate-100"
           />
         </div>
         <div className="text-center mt-2">
