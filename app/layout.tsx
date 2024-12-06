@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   creator: "Md. Abdul Majid",
   publisher: "Md. Abdul Majid",
   robots: "index, follow",
-  icons: "/abdul-majid.jpg",
+  icons: "/abdulmajid.jpg",
   twitter: {
     card: "summary",
     site: "https://abdulmajid.xyz",
