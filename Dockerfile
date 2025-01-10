@@ -10,8 +10,5 @@ RUN npm install
 # Copy the current directory contents into the container
 COPY . .
 
-# Expose the development server port
-EXPOSE 3000
-
 # Start the development server
 CMD ["npm", "run", "dev"]
