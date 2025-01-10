@@ -39,7 +39,7 @@ export default function Home() {
         <div className="font-libre-baskerville text-lg text-slate-900 mt-7">
           <p className="mb-5">
             I am a backend-heavy full-stack developer and a self-learner. I am
-            experienced for more than 3 years and working with{" "}
+            experienced for more than four years and working with{" "}
             <a
               href="https://laravel.com"
               target="_blank"
@@ -78,6 +78,14 @@ export default function Home() {
               className="font-bold underline"
             >
               VueJS
+            </a>
+            ,{" "}
+            <a
+              href="https://react.dev/"
+              target="_blank"
+              className="font-bold underline"
+            >
+              ReactJS
             </a>
             ,{" "}
             <a
@@ -178,6 +186,13 @@ export default function Home() {
               className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               VueJS
+            </a>
+            <a
+              href="https://react.dev/"
+              target="_blank"
+              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+            >
+              ReactJS
             </a>
             <a
               href="https://www.typescriptlang.org/"
@@ -315,7 +330,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-8">
           <div className="grid md:grid-cols-2">
             <div>
