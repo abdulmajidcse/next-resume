@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   description:
     "Professional Software Engineer and working with Laravel, Livewire, AlpineJS, jQuery, VueJS, ReactJS",
   applicationName: "Abdul Majid Portfolio",
-  authors: [{ name: "Md. Abdul Majid", url: "https://abdulmajid.xyz" }],
+  authors: [{ name: "Md. Abdul Majid", url: "https://abdulmajid.com.bd" }],
   generator: "Md. Abdul Majid",
   keywords: [
     "abdul majid",
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
   icons: "/abdulmajid.jpg",
   twitter: {
     card: "summary",
-    site: "https://abdulmajid.xyz",
+    site: "https://abdulmajid.com.bd",
     creator: "@abdulmajidcse",
-    images: "https://abdulmajid.xyz/abdulmajid.jpg",
+    images: "https://abdulmajid.com.bd/abdulmajid.jpg",
   },
 };
 

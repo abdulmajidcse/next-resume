@@ -1,7 +1,7 @@
 FROM node:22
 
 # Set the working directory in the container
-WORKDIR /var/www/html
+WORKDIR /app
 
 # Copy package files and install dependencies
 COPY package*.json ./
