@@ -1,7 +1,7 @@
-import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About | Md Abdul Majid - Software Engineer",
@@ -12,102 +12,84 @@ export default function About() {
     <>
       {/* about me */}
       <section className="section">
-        <div className="flex justify-center">
-          <Image
-            src="/abdulmajid.jpg"
-            alt="Abdul Majid"
-            width={250}
-            height={250}
-            className="rounded-full shadow-xl w-[250px] h-[250px] border-[0.5rem] border-slate-100"
-          />
-        </div>
-        <div className="text-center mt-2">
-          <h2 className="font-playfair-display uppercase text-2xl font-medium">
-            MD Abdul Majid
-          </h2>
-          <p>Software Engineer</p>
-          <p>
+        <h2 className="font-playfair-display text-slate-900 text-3xl uppercase font-bold gradient-text">
+          About
+        </h2>
+
+        <div className="font-libre-baskerville text-lg text-slate-900 mt-7">
+          <p className="mb-5">Hi, I&apos;m Md Abdul Majid!</p>
+          <p className="mb-5 font-black text-base">
+            I&apos;m a software engineer for{" "}
             <a
               href="https://nogorsolutions.com"
-              target="_blank"
-              className="hover:underline"
+              className="text-purple-800 font-black hover:underline"
             >
-              @Nogor Solutions Limited
-            </a>
+              Nogor Solutions Limited
+            </a>{" "}
+            in Dhaka, Bangladesh.
           </p>
-        </div>
-        <div className="font-libre-baskerville text-lg text-slate-900 mt-7">
           <p className="mb-5">
             I am a backend-heavy full-stack developer and a self-learner. I am
             experienced for more than four years and working with{" "}
             <a
               href="https://laravel.com"
-              target="_blank"
-              className="font-bold underline"
+              className="text-purple-800 font-bold hover:underline"
             >
               Laravel
             </a>
             ,{" "}
             <a
               href="https://laravel-livewire.com"
-              target="_blank"
-              className="font-bold underline"
+              className="text-purple-800 font-bold hover:underline"
             >
               Livewire
             </a>
             ,{" "}
             <a
               href="https://jquery.com/"
-              target="_blank"
-              className="font-bold underline"
+              className="text-purple-800 font-bold hover:underline"
             >
               jQuery
             </a>
             , and{" "}
             <a
               href="https://alpinejs.dev/"
-              target="_blank"
-              className="font-bold underline"
+              className="text-purple-800 font-bold hover:underline"
             >
               AlpineJS
             </a>
             . I am also experienced in{" "}
             <a
               href="https://vuejs.org/"
-              target="_blank"
-              className="font-bold underline"
+              className="text-purple-800 font-bold hover:underline"
             >
               VueJS
             </a>
             ,{" "}
             <a
               href="https://react.dev/"
-              target="_blank"
-              className="font-bold underline"
+              className="text-purple-800 font-bold hover:underline"
             >
               ReactJS
             </a>
             ,{" "}
             <a
               href="https://laravel.com/docs/10.x/queues"
-              target="_blank"
-              className="font-bold underline"
+              className="text-purple-800 font-bold hover:underline"
             >
               Queue
             </a>
             ,{" "}
             <a
               href="https://laravel.com/docs/10.x/scheduling"
-              target="_blank"
-              className="font-bold underline"
+              className="text-purple-800 font-bold hover:underline"
             >
               Task Scheduling
             </a>
             , VPS Server, CI/CD, and Docker (Basic). I love the beauty of{" "}
             <a
               href="https://laravel.com/docs/10.x/eloquent"
-              target="_blank"
-              className="font-bold underline"
+              className="text-purple-800 font-bold hover:underline"
             >
               Laravel ORM
             </a>
@@ -120,6 +102,30 @@ export default function About() {
           <p className="mb-5">
             I love to share my knowledge, mostly technical. I enjoy learning new
             things and building something new.
+          </p>
+          <p className="mb-5">
+            If you need anything,{" "}
+            <Link
+              href="/contact"
+              className="text-purple-800 font-black hover:underline"
+            >
+              send me a message
+            </Link>
+            . You can also find me on{" "}
+            <a
+              href="https://x.com/abdulmajidcse"
+              className="text-purple-800 font-black hover:underline"
+            >
+              X
+            </a>
+            , or{" "}
+            <a
+              href="https://linkedin.com/in/abdulmajidcse"
+              className="text-purple-800 font-black hover:underline"
+            >
+              LinkedIn
+            </a>
+            .
           </p>
         </div>
       </section>
@@ -140,105 +146,92 @@ export default function About() {
           <div className="my-4 font-libre-baskerville">
             <a
               href="https://www.php.net/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               PHP
             </a>
             <a
               href="https://www.mysql.com/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               MySQL
             </a>
             <a
               href="https://laravel.com/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               Laravel
             </a>
             <a
               href="https://laravel-livewire.com/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               Livewire
             </a>
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               JavaScript
             </a>
             <a
               href="https://jquery.com/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               jQuery
             </a>
             <a
               href="https://vuejs.org/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               VueJS
             </a>
             <a
               href="https://react.dev/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               ReactJS
             </a>
             <a
               href="https://www.typescriptlang.org/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               TypeScript
             </a>
             <a
               href="https://getbootstrap.com/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               Bootstrap
             </a>
             <a
               href="https://tailwindcss.com/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               TailwindCSS
             </a>
             <a
               href="https://git-scm.com/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               Git
             </a>
             <a
               href="https://dev.mysql.com/downloads/workbench/"
-              target="_blank"
-              className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
+              className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"
             >
               Database Design
             </a>
-            <span className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2">
+            <span className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2">
               API Development
             </span>
-            <span className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2">
+            <span className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2">
               Queue
             </span>
-            <span className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2">
+            <span className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2">
               Task Scheduling
             </span>
-            <span className="bg-slate-300/50 text-slate-900 hover:text-slate-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2">
+            <span className="bg-slate-300/50 text-purple-800 hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2">
               VPS Server
             </span>
           </div>
@@ -258,7 +251,6 @@ export default function About() {
               <p className="font-lato uppercase font-bold text-xl text-slate-900">
                 <a
                   href="https://www.nogorsolutions.com/"
-                  target="_blank"
                   className="hover:underline"
                 >
                   Nogor Solutions Limited
@@ -338,11 +330,7 @@ export default function About() {
                 Programmer - Remotely
               </h3>
               <p className="font-lato uppercase font-bold text-xl text-slate-900">
-                <a
-                  href="https://createchbd.com/"
-                  target="_blank"
-                  className="hover:underline"
-                >
+                <a href="https://createchbd.com/" className="hover:underline">
                   Creative Technology
                 </a>
               </p>
@@ -403,93 +391,6 @@ export default function About() {
                 Utilized: PHP, MySQL, Laravel, Livewire.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-      {/* Education */}
-      <section className="section">
-        <h2 className="text-slate-900 font-playfair-display text-4xl uppercase font-bold">
-          Education
-        </h2>
-        <div className="mt-8">
-          <div className="grid md:grid-cols-2">
-            <div>
-              <h3 className="font-lato uppercase font-bold text-lg text-slate-900">
-                <a
-                  href="https://diu.ac/"
-                  target="_blank"
-                  className="hover:underline"
-                >
-                  Dhaka International University
-                </a>
-              </h3>
-              <p className="font-libre-baskerville font-semibold text-lg text-slate-900">
-                Bachelor of Science
-              </p>
-            </div>
-            <div className="text-start md:text-end font-libre-baskerville font-semibold text-sm text-slate-900">
-              August 2022 - Present
-            </div>
-          </div>
-          <div className="my-4 font-libre-baskerville text-slate-800">
-            <p>Computer Science and Engineering</p>
-            <p>CGPA: (Studying)</p>
-          </div>
-        </div>
-        <div className="mt-8">
-          <div className="grid md:grid-cols-2">
-            <div>
-              <h3 className="font-lato uppercase font-bold text-lg text-slate-900">
-                <a
-                  href="https://kpik.gov.bd/"
-                  target="_blank"
-                  className="hover:underline"
-                >
-                  Kurigram Polytechnic Institute
-                </a>
-              </h3>
-              <p className="font-libre-baskerville font-semibold text-lg text-slate-900">
-                Diploma in Engineering
-              </p>
-            </div>
-            <div className="text-start md:text-end font-libre-baskerville font-semibold text-sm text-slate-900">
-              August 2016 - December 2020
-            </div>
-          </div>
-          <div className="my-4 font-libre-baskerville text-slate-800">
-            <p>Computer Technology</p>
-            <p>CGPA: 3.71 (Out of 4.00)</p>
-          </div>
-        </div>
-      </section>
-      {/* Interests */}
-      <section className="section">
-        <h2 className="text-slate-900 font-playfair-display text-4xl uppercase font-bold">
-          Interests
-        </h2>
-        <div className="font-libre-baskerville text-lg text-slate-800 mt-7 mb-10">
-          <div>
-            <p>
-              <FontAwesomeIcon
-                icon={faCheck}
-                className="inline-block w-5 text-lg mr-1"
-              />{" "}
-              Programming
-            </p>
-            <p>
-              <FontAwesomeIcon
-                icon={faCheck}
-                className="inline-block w-5 text-lg mr-1"
-              />{" "}
-              Problem Solving
-            </p>
-            <p>
-              <FontAwesomeIcon
-                icon={faCheck}
-                className="inline-block w-5 text-lg mr-1"
-              />{" "}
-              Research
-            </p>
           </div>
         </div>
       </section>

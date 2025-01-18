@@ -19,7 +19,7 @@ export default function Header() {
             href="/"
             className="ml-4 md:ml-0 mb-8 md:mb-0 text-slate-800 hover:text-slate-500"
           >
-            <span className="font-lato self-center text-3xl font-extrabold whitespace-nowrap theme-text-shadow tracking-tighter hover:text-slate-300">
+            <span className="font-lato self-center text-3xl font-extrabold whitespace-nowrap theme-text-shadow tracking-tighter">
               AM
             </span>
           </Link>
@@ -73,8 +73,8 @@ export default function Header() {
               <li>
                 <Link
                   href="/"
-                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500 ${
-                    pathname === "/" && "font-extrabold"
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
+                    pathname === "/" && "font-extrabold text-purple-800"
                   }`}
                 >
                   Home
@@ -83,8 +83,8 @@ export default function Header() {
               <li>
                 <Link
                   href="/about"
-                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500 ${
-                    pathname === "/about" && "font-extrabold"
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
+                    pathname === "/about" && "font-extrabold text-purple-800"
                   }`}
                 >
                   About
@@ -93,8 +93,8 @@ export default function Header() {
               <li>
                 <Link
                   href="/socials"
-                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500 ${
-                    pathname === "/socials" && "font-extrabold"
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
+                    pathname === "/socials" && "font-extrabold text-purple-800"
                   }`}
                 >
                   Socials
@@ -103,8 +103,8 @@ export default function Header() {
               <li>
                 <Link
                   href="/projects"
-                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500 ${
-                    pathname === "/projects" && "font-extrabold"
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
+                    pathname === "/projects" && "font-extrabold text-purple-800"
                   }`}
                 >
                   Projects
@@ -113,8 +113,8 @@ export default function Header() {
               <li>
                 <Link
                   href="/contact"
-                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500 ${
-                    pathname === "/contact" && "font-extrabold"
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
+                    pathname === "/contact" && "font-extrabold text-purple-800"
                   }`}
                 >
                   Contact

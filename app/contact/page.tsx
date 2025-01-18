@@ -18,16 +18,14 @@ export default function Contact() {
           <p className="mb-5">
             If you want to hire me or need a consultant, send a message to my{" "}
             <a
-              href="https://facebook.com/abdulmajidcse"
-              target="_blank"
+              href="https://x.com/abdulmajidcse"
               className="underline font-extrabold"
             >
-              Facebook
+              X,
             </a>{" "}
             or{" "}
             <a
               href="https://www.linkedin.com/in/abdulmajidcse"
-              target="_blank"
               className="underline font-extrabold"
             >
               LinkedIn

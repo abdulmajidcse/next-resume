@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Home | Md Abdul Majid - Software Engineer",
@@ -25,91 +26,20 @@ export default function Home() {
           </h2>
           <p>Software Engineer</p>
           <p>
-            <a
-              href="https://nogorsolutions.com"
-              target="_blank"
-              className="hover:underline"
-            >
+            <a href="https://nogorsolutions.com" className="text-purple-800 font-black hover:underline">
               @Nogor Solutions Limited
             </a>
           </p>
         </div>
         <div className="font-libre-baskerville text-lg text-slate-900 mt-7">
           <p className="mb-5">
-            I am a backend-heavy full-stack developer and a self-learner. I am
-            experienced for more than four years and working with{" "}
-            <a
-              href="https://laravel.com"
-              target="_blank"
-              className="font-bold underline"
-            >
-              Laravel
-            </a>
-            ,{" "}
-            <a
-              href="https://laravel-livewire.com"
-              target="_blank"
-              className="font-bold underline"
-            >
-              Livewire
-            </a>
-            ,{" "}
-            <a
-              href="https://jquery.com/"
-              target="_blank"
-              className="font-bold underline"
-            >
-              jQuery
-            </a>
-            , and{" "}
-            <a
-              href="https://alpinejs.dev/"
-              target="_blank"
-              className="font-bold underline"
-            >
-              AlpineJS
-            </a>
-            . I am also experienced in{" "}
-            <a
-              href="https://vuejs.org/"
-              target="_blank"
-              className="font-bold underline"
-            >
-              VueJS
-            </a>
-            ,{" "}
-            <a
-              href="https://react.dev/"
-              target="_blank"
-              className="font-bold underline"
-            >
-              ReactJS
-            </a>
-            ,{" "}
-            <a
-              href="https://laravel.com/docs/10.x/queues"
-              target="_blank"
-              className="font-bold underline"
-            >
-              Queue
-            </a>
-            ,{" "}
-            <a
-              href="https://laravel.com/docs/10.x/scheduling"
-              target="_blank"
-              className="font-bold underline"
-            >
-              Task Scheduling
-            </a>
-            , VPS Server, CI/CD, and Docker (Basic). I love the beauty of{" "}
-            <a
-              href="https://laravel.com/docs/10.x/eloquent"
-              target="_blank"
-              className="font-bold underline"
-            >
-              Laravel ORM
-            </a>
-            .
+            I am a backend-heavy full-stack developer and a self-learner. I love
+            to share my knowledge, mostly technical. I enjoy learning new things
+            and building something new. I am experienced for more than four
+            years and working with ...{" "}
+            <Link href="/about" className="text-purple-800 underline">
+              read more
+            </Link>
           </p>
         </div>
       </section>

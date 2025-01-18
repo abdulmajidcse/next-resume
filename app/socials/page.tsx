@@ -24,7 +24,6 @@ export default function Socials() {
               LinkedIn:{" "}
               <a
                 href="https://linkedin.com/in/abdulmajidcse"
-                target="_blank"
                 className="font-bold underline"
               >
                 linkedin.com/in/abdulmajidcse
@@ -34,7 +33,6 @@ export default function Socials() {
               GitHub:{" "}
               <a
                 href="https://github.com/abdulmajidcse"
-                target="_blank"
                 className="font-bold underline"
               >
                 github.com/abdulmajidcse
@@ -44,7 +42,6 @@ export default function Socials() {
               Hackerrank:{" "}
               <a
                 href="https://hackerrank.com/profile/abdulmajidcse"
-                target="_blank"
                 className="font-bold underline"
               >
                 hackerrank.com/profile/abdulmajidcse
@@ -54,7 +51,6 @@ export default function Socials() {
               Medium:{" "}
               <a
                 href="https://medium.com/@abdulmajidcse"
-                target="_blank"
                 className="font-bold underline"
               >
                 medium.com/@abdulmajidcse
@@ -64,7 +60,6 @@ export default function Socials() {
               Packagist:{" "}
               <a
                 href="https://packagist.org/packages/abdulmajidcse"
-                target="_blank"
                 className="font-bold underline"
               >
                 packagist.org/packages/abdulmajidcse
@@ -74,7 +69,6 @@ export default function Socials() {
               Facebook:{" "}
               <a
                 href="https://facebook.com/abdulmajidcse"
-                target="_blank"
                 className="font-bold underline"
               >
                 facebook.com/abdulmajidcse
@@ -84,20 +78,18 @@ export default function Socials() {
               YouTube:{" "}
               <a
                 href="https://youtube.com/@abdulmajidcse"
-                target="_blank"
                 className="font-bold underline"
               >
                 youtube.com/@abdulmajidcse
               </a>
             </li>
             <li>
-              Twitter:{" "}
+              X:{" "}
               <a
-                href="https://twitter.com/abdulmajidcse"
-                target="_blank"
+                href="https://x.com/abdulmajidcse"
                 className="font-bold underline"
               >
-                twitter.com/abdulmajidcse
+                x.com/abdulmajidcse
               </a>
             </li>
 
@@ -105,7 +97,6 @@ export default function Socials() {
               Pinkary:{" "}
               <a
                 href="https://pinkary.com/@abdulmajidcse"
-                target="_blank"
                 className="font-bold underline"
               >
                 pinkary.com/@abdulmajidcse
