@@ -19,8 +19,8 @@ export default function Header() {
             href="/"
             className="ml-4 md:ml-0 mb-8 md:mb-0 text-slate-800 hover:text-slate-500"
           >
-            <span className="font-lato self-center text-2xl font-extrabold whitespace-nowrap">
-              Abdul Majid
+            <span className="font-lato self-center text-3xl font-extrabold whitespace-nowrap theme-text-shadow tracking-tighter hover:text-slate-300">
+              AM
             </span>
           </Link>
           <div className="flex gap-2 pr-4 md:pr-0 pb-8 md:pb-0 font-lato">
