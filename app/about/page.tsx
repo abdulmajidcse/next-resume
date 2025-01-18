@@ -103,30 +103,6 @@ export default function About() {
             I love to share my knowledge, mostly technical. I enjoy learning new
             things and building something new.
           </p>
-          <p className="mb-5">
-            If you need anything,{" "}
-            <Link
-              href="/contact"
-              className="theme-text-color font-black hover:underline"
-            >
-              send me a message
-            </Link>
-            . You can also find me on{" "}
-            <a
-              href="https://x.com/abdulmajidcse"
-              className="theme-text-color font-black hover:underline"
-            >
-              X
-            </a>
-            , or{" "}
-            <a
-              href="https://linkedin.com/in/abdulmajidcse"
-              className="theme-text-color font-black hover:underline"
-            >
-              LinkedIn
-            </a>
-            .
-          </p>
         </div>
       </section>
       {/* skills */}
@@ -239,159 +215,41 @@ export default function About() {
       </section>
       {/* Experience */}
       <section className="section">
-        <h2 className="text-slate-900 font-playfair-display text-4xl uppercase font-bold">
-          Experience
-        </h2>
         <div className="mt-8">
-          <div className="grid md:grid-cols-2">
-            <div>
-              <h3 className="font-libre-baskerville font-bold text-lg text-slate-900">
-                Software Engineer
-              </h3>
-              <p className="font-lato uppercase font-bold text-xl text-slate-900">
-                <a
-                  href="https://www.nogorsolutions.com/"
-                  className="hover:underline"
-                >
-                  Nogor Solutions Limited
-                </a>
-              </p>
-            </div>
-            <div className="text-start md:text-end font-libre-baskerville font-semibold text-sm text-slate-900">
-              March 2024 - Present
-            </div>
-          </div>
-          <div className="my-4 font-libre-baskerville text-slate-800">
-            <p className="mb-3">
-              As a Software Engineer, I build web application or custom
-              solutions.
-            </p>
-            <p className="mb-3">
-              We used the following tools and technologies for development.
-            </p>
-            <div>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Analyze System and Design According to Requirement.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Design Database Entity Relationship Diagram (ERD).
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Create RESTful API using PHP, Laravel.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Vuejs to build Single Page Application.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Used Bootstrap for frontend design.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Used MySQL as a primary database.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Utilized: PHP, MySQL, Laravel, Vuejs.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-8">
-          <div className="grid md:grid-cols-2">
-            <div>
-              <h3 className="font-libre-baskerville font-bold text-lg text-slate-900">
-                Programmer - Remotely
-              </h3>
-              <p className="font-lato uppercase font-bold text-xl text-slate-900">
-                <a href="https://createchbd.com/" className="hover:underline">
-                  Creative Technology
-                </a>
-              </p>
-            </div>
-            <div className="text-start md:text-end font-libre-baskerville font-semibold text-sm text-slate-900">
-              September 2020 - February 2024
-            </div>
-          </div>
-          <div className="my-4 font-libre-baskerville text-slate-800">
-            <p className="mb-3">
-              As a developer, I design and develop a web application for
-              Government and Private Institutes
-            </p>
-            <p className="mb-3">
-              We used the following tools and technologies for development.
-            </p>
-            <div>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Analyze System and Design According to Requirement.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Design Database Entity Relationship Diagram (ERD).
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Create RESTful API using PHP, Laravel.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Used Bootstrap and TailwindCSS for frontend design.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Used MySQL as a primary database.
-              </p>
-              <p>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="inline-block w-5 text-lg mr-1"
-                />{" "}
-                Utilized: PHP, MySQL, Laravel, Livewire.
-              </p>
-            </div>
-          </div>
+          <p className="mb-5">
+            I practice everyday when I get time to learn something new. I
+            beleive that knowledge is power. Technologry updates itself day by
+            day.
+          </p>
+          <p className="mb-3">
+            <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-slate-800 relative inline-block">
+              <span className="relative text-white">Do you up to date?</span>
+            </span>
+          </p>
+          <p>
+            If you need anything,{" "}
+            <Link
+              href="/contact"
+              className="theme-text-color font-black hover:underline"
+            >
+              send me a message
+            </Link>
+            . You can also find me on{" "}
+            <a
+              href="https://x.com/abdulmajidcse"
+              className="theme-text-color font-black hover:underline"
+            >
+              X
+            </a>
+            , or{" "}
+            <a
+              href="https://linkedin.com/in/abdulmajidcse"
+              className="theme-text-color font-black hover:underline"
+            >
+              LinkedIn
+            </a>
+            .
+          </p>
         </div>
       </section>
     </>
