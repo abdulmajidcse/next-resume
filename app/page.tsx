@@ -213,10 +213,68 @@ export default function Home() {
 
           <div className="flex justify-center mt-8 mb-5">
             <a
-              href="https://github.com/abdulmajidcse"
+              href="https://github.com/abdulmajidcse?tab=repositories"
               className="theme-button w-full font-libre-baskerville font-bold"
             >
               See All My Github Public Repositories
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* my learning screencasts */}
+      <section className="section">
+        <h2 className="theme-text-color font-playfair-display text-3xl font-bold">
+          My Youtube Learning Screencasts
+        </h2>
+        <div className="mt-8">
+          <div className="flex flex-col gap-10 my-4 font-lato text-xl font-semibold text-slate-600">
+            <div>
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/3ofzoX-AV5Y?si=k-NP_Cx9HD5MdtBD"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
+
+            <div>
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/4l0OgHQin1w?si=2gT_vxhp0aqFnd5-"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
+
+            <div>
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/eja2Tl5zQc8?si=PTXcYXjUq59dVYyo"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div className="flex justify-center mt-8">
+            <a
+              href="https://www.youtube.com/@AbdulMajidCSE"
+              className="theme-button w-full font-libre-baskerville font-bold"
+            >
+              See All My Youtube Learning Screencasts
             </a>
           </div>
         </div>
