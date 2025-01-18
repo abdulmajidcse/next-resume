@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "./app.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Lato, Libre_Baskerville, Playfair_Display } from "next/font/google";

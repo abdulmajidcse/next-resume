@@ -74,7 +74,7 @@ export default function Header() {
                 <Link
                   href="/"
                   className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
-                    pathname === "/" && "font-extrabold text-purple-800"
+                    pathname === "/" && "font-extrabold theme-text-color"
                   }`}
                 >
                   Home
@@ -84,7 +84,7 @@ export default function Header() {
                 <Link
                   href="/about"
                   className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
-                    pathname === "/about" && "font-extrabold text-purple-800"
+                    pathname === "/about" && "font-extrabold theme-text-color"
                   }`}
                 >
                   About
@@ -94,7 +94,7 @@ export default function Header() {
                 <Link
                   href="/socials"
                   className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
-                    pathname === "/socials" && "font-extrabold text-purple-800"
+                    pathname === "/socials" && "font-extrabold theme-text-color"
                   }`}
                 >
                   Socials
@@ -104,7 +104,7 @@ export default function Header() {
                 <Link
                   href="/projects"
                   className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
-                    pathname === "/projects" && "font-extrabold text-purple-800"
+                    pathname === "/projects" && "font-extrabold theme-text-color"
                   }`}
                 >
                   Projects
@@ -114,7 +114,7 @@ export default function Header() {
                 <Link
                   href="/contact"
                   className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
-                    pathname === "/contact" && "font-extrabold text-purple-800"
+                    pathname === "/contact" && "font-extrabold theme-text-color"
                   }`}
                 >
                   Contact
