@@ -77,6 +77,16 @@ export default function Header() {
                     pathname === "/" && "font-extrabold"
                   }`}
                 >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about"
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-slate-500 ${
+                    pathname === "/about" && "font-extrabold"
+                  }`}
+                >
                   About
                 </Link>
               </li>
