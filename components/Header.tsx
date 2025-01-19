@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import ApplicationLogo from "@/components/ApplicationLogo";
 
 export default function Header() {
   const pathname = usePathname();
@@ -19,9 +20,7 @@ export default function Header() {
             href="/"
             className="ml-4 md:ml-0 mb-8 md:mb-0 text-slate-800 hover:text-slate-500"
           >
-            <span className="font-lato self-center text-3xl font-extrabold whitespace-nowrap theme-text-shadow tracking-tighter">
-              AM
-            </span>
+            <ApplicationLogo />
           </Link>
           <div className="flex gap-2 pr-4 md:pr-0 pb-8 md:pb-0 font-lato">
             <button
@@ -104,7 +103,8 @@ export default function Header() {
                 <Link
                   href="/projects"
                   className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
-                    pathname === "/projects" && "font-extrabold theme-text-color"
+                    pathname === "/projects" &&
+                    "font-extrabold theme-text-color"
                   }`}
                 >
                   Projects

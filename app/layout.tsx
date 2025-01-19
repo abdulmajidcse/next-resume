@@ -1,8 +1,16 @@
 import type { Metadata } from "next";
-import "./app.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import { Lato, Libre_Baskerville, Playfair_Display } from "next/font/google";
+import {
+  Nunito,
+  Lato,
+  Libre_Baskerville,
+  Playfair_Display,
+} from "next/font/google";
+import "@/app/global.css";
+
+const nunitoFont = Nunito({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const lato = Lato({
   subsets: ["latin"],
@@ -21,6 +29,21 @@ const playfair_display = Playfair_Display({
   subsets: ["latin-ext"],
   variable: "--font-playfair-display",
 });
+
+const RootLayout = ({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) => {
+  return (
+    <html
+      lang="en"
+      className={`scroll-smooth ${lato.variable} ${libre_baskerville.variable} ${playfair_display.variable} ${nunitoFont.className} font-sans`}
+    >
+      <body className="antialiased">{children}</body>
+    </html>
+  );
+};
 
 export const metadata: Metadata = {
   title: "Md Abdul Majid - Software Engineer",
@@ -53,23 +76,4 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html
-      lang="en"
-      className={`scroll-smooth ${lato.variable} ${libre_baskerville.variable} ${playfair_display.variable} font-sans`}
-    >
-      <body className="bg-white bg-center bg-repeat antialiased bg-[url('/dots.svg')] font-libre-baskerville">
-        <Header />
-        <div className="max-w-[750px] mx-auto min-h-[calc(100vh-180px)]">
-          <main className="md:ml-8 mb-10">{children}</main>
-        </div>
-        <Footer />
-      </body>
-    </html>
-  );
-}
+export default RootLayout;
