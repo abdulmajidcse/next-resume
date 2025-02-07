@@ -8,10 +8,10 @@ export default function Projects() {
   return (
     <>
       <section className="section">
-        <h2 className="font-playfair-display text-slate-900 text-3xl uppercase font-bold">
+        <h2 className="text-slate-900 text-3xl uppercase font-bold">
           Projects
         </h2>
-        <div className="font-libre-baskerville text-lg text-slate-900 mt-7 mb-10">
+        <div className="text-lg text-slate-900 mt-7 mb-10">
           <p className="mb-5">
             {"I'm"} a Software Engineer. Mostly, {"I'm"} working with Laravel,
             VueJS, ReactJS, Livewire, jQuery, AlpinJS, and more.
@@ -20,7 +20,7 @@ export default function Projects() {
             Here you can find some of projects where {"I'm"} a developer of
             these projects.
           </p>
-          <ul className="list-disc list-inside font-libre-baskerville text-lg leading-10 marker:text-slate-300">
+          <ul className="list-disc list-inside text-lg leading-10 marker:text-slate-300">
             <li>
               <a href="https://aosed.org/" className="font-bold underline">
                 Aosed

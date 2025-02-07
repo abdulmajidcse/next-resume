@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="bg-white bg-center bg-repeat antialiased bg-[url('/dots.svg')] font-libre-baskerville">
+    <div className="bg-white bg-center bg-repeat antialiased bg-[url('/dots.svg')]">
       <Header />
       <div className="max-w-[750px] mx-auto min-h-[calc(100vh-180px)]">
         <main className="md:ml-8 mb-10">{children}</main>

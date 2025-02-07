@@ -8,10 +8,8 @@ export default function Socials() {
   return (
     <>
       <section className="section">
-        <h2 className="font-playfair-display text-slate-900 text-3xl uppercase font-bold">
-          Socials
-        </h2>
-        <div className="font-libre-baskerville text-lg text-slate-900 mt-7 mb-10">
+        <h2 className="text-slate-900 text-3xl uppercase font-bold">Socials</h2>
+        <div className="text-lg text-slate-900 mt-7 mb-10">
           <p className="mb-5">
             Welcome to my {"social's"} page! Here you can find all of my social
             media links and connect with me online.
@@ -19,7 +17,7 @@ export default function Socials() {
           <p className="mb-5">
             So, go ahead and click around, and {"let's"} stay connected!
           </p>
-          <ul className="list-disc list-inside font-libre-baskerville text-lg leading-10 marker:text-slate-300">
+          <ul className="list-disc list-inside text-lg leading-10 marker:text-slate-300">
             <li>
               LinkedIn:{" "}
               <a

@@ -1,33 +1,10 @@
 import type { Metadata } from "next";
-import {
-  Nunito,
-  Lato,
-  Libre_Baskerville,
-  Playfair_Display,
-} from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "@/app/global.css";
 
-const nunitoFont = Nunito({
+const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-  display: "swap",
-});
-
-const lato = Lato({
-  subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"],
-  variable: "--font-lato",
-});
-
-const libre_baskerville = Libre_Baskerville({
-  subsets: ["latin-ext"],
   display: "auto",
-  weight: ["400", "700"],
-  variable: "--font-libre-baskerville",
-});
-
-const playfair_display = Playfair_Display({
-  subsets: ["latin-ext"],
-  variable: "--font-playfair-display",
 });
 
 const RootLayout = ({
@@ -36,10 +13,7 @@ const RootLayout = ({
   children: React.ReactNode;
 }>) => {
   return (
-    <html
-      lang="en"
-      className={`scroll-smooth ${lato.variable} ${libre_baskerville.variable} ${playfair_display.variable} ${nunitoFont.className} font-sans`}
-    >
+    <html lang="en" className={`scroll-smooth ${jetBrainsMono.className}`}>
       <body className="antialiased">{children}</body>
     </html>
   );
@@ -50,7 +24,7 @@ export const metadata: Metadata = {
   description:
     "Professional Software Engineer and working with Laravel, Livewire, AlpineJS, jQuery, VueJS, ReactJS",
   applicationName: "Abdul Majid Portfolio",
-  authors: [{ name: "Md. Abdul Majid", url: "https://abdulmajid.com.bd" }],
+  authors: [{ name: "Md. Abdul Majid", url: "https://abdulmajid.dev" }],
   generator: "Md. Abdul Majid",
   keywords: [
     "abdul majid",
@@ -70,9 +44,9 @@ export const metadata: Metadata = {
   icons: "/abdulmajid.jpg",
   twitter: {
     card: "summary",
-    site: "https://abdulmajid.com.bd",
+    site: "https://abdulmajid.dev",
     creator: "@abdulmajidcse",
-    images: "https://abdulmajid.com.bd/abdulmajid.jpg",
+    images: "https://abdulmajid.dev/abdulmajid.jpg",
   },
 };
 

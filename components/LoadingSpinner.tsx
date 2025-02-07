@@ -8,7 +8,7 @@ interface LoadingSpinnerProps {
 export default function LoadingSpinner(props: LoadingSpinnerProps) {
   return (
     <div
-      className={`min-h-screen flex items-center justify-center font-lato ${props.className}`}
+      className={`min-h-screen flex items-center justify-center ${props.className}`}
     >
       <div className="text-lg text-slate-800 tracking-wider">
         <FontAwesomeIcon

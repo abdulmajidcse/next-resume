@@ -1,8 +1,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 export const metadata: Metadata = {
   title: "Home | Md Abdul Majid - Software Engineer",
@@ -23,9 +21,7 @@ export default function Home() {
           />
         </div>
         <div className="text-center mt-2">
-          <h2 className="font-playfair-display uppercase text-2xl font-medium">
-            MD Abdul Majid
-          </h2>
+          <h2 className="uppercase text-2xl font-medium">MD Abdul Majid</h2>
           <p>Software Engineer</p>
           <p>
             <a
@@ -36,7 +32,7 @@ export default function Home() {
             </a>
           </p>
         </div>
-        <div className="font-libre-baskerville text-lg text-slate-900 mt-7">
+        <div className="text-slate-900 mt-7">
           <p className="mb-5">
             I am a backend-heavy full-stack developer and a self-learner. I love
             to share my knowledge, mostly technical. I enjoy learning new things
@@ -51,11 +47,11 @@ export default function Home() {
 
       {/* my popular medium stories */}
       <section className="section">
-        <h2 className="theme-text-color font-playfair-display text-3xl font-bold">
+        <h2 className="theme-text-color text-xl font-bold">
           My Popular Medium Stories
         </h2>
-        <div className="mt-8">
-          <div className="flex flex-col gap-4 my-4 font-lato text-xl font-semibold text-slate-600">
+        <div className="mt-6">
+          <div className="text-sm flex flex-col gap-4 my-4 text-slate-900">
             <p>
               <a
                 href="https://abdulmajidcse.medium.com/mastering-in-docker-and-setup-development-environment-for-reactjs-vuejs-laravel-and-more-5cfe18b8a420"
@@ -125,7 +121,7 @@ export default function Home() {
           <div className="flex justify-center mt-8">
             <a
               href="https://abdulmajidcse.medium.com/"
-              className="theme-button w-full font-libre-baskerville font-bold"
+              className="theme-button w-full font-bold"
             >
               See All My Medium Stories
             </a>
@@ -135,11 +131,11 @@ export default function Home() {
 
       {/* my github learning resources */}
       <section className="section">
-        <h2 className="theme-text-color font-playfair-display text-3xl font-bold">
+        <h2 className="theme-text-color text-xl font-bold">
           My Github Learning Resources
         </h2>
-        <div className="mt-8">
-          <div className="flex flex-col gap-4 my-4 font-lato text-xl font-semibold text-slate-600">
+        <div className="mt-6">
+          <div className="text-sm flex flex-col gap-4 my-4 text-slate-900">
             <p>
               <a
                 href="https://github.com/abdulmajidcse/data-structure-and-algorithm"
@@ -214,7 +210,7 @@ export default function Home() {
           <div className="flex justify-center mt-8 mb-5">
             <a
               href="https://github.com/abdulmajidcse?tab=repositories"
-              className="theme-button w-full font-libre-baskerville font-bold"
+              className="theme-button w-full font-bold"
             >
               See All My Github Public Repositories
             </a>
@@ -224,11 +220,11 @@ export default function Home() {
 
       {/* my learning screencasts */}
       <section className="section">
-        <h2 className="theme-text-color font-playfair-display text-3xl font-bold">
+        <h2 className="theme-text-color text-xl font-bold">
           My Youtube Learning Screencasts
         </h2>
-        <div className="mt-8">
-          <div className="flex flex-col gap-10 my-4 font-lato text-xl font-semibold text-slate-600">
+        <div className="mt-6">
+          <div className="flex flex-col gap-10 my-4 text-slate-900">
             <div>
               <iframe
                 width="100%"
@@ -272,7 +268,7 @@ export default function Home() {
           <div className="flex justify-center mt-8">
             <a
               href="https://www.youtube.com/@AbdulMajidCSE"
-              className="theme-button w-full font-libre-baskerville font-bold"
+              className="theme-button w-full font-bold"
             >
               See All My Youtube Learning Screencasts
             </a>

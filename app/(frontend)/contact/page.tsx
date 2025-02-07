@@ -8,10 +8,8 @@ export default function Contact() {
   return (
     <>
       <section className="section">
-        <h2 className="font-playfair-display text-slate-900 text-3xl uppercase font-bold">
-          Contact
-        </h2>
-        <div className="font-libre-baskerville text-lg text-slate-900 mt-7 mb-10">
+        <h2 className="text-slate-900 text-3xl uppercase font-bold">Contact</h2>
+        <div className="text-lg text-slate-900 mt-7 mb-10">
           <p className="mb-5">
             Feel free to contact with me. I am available for hire.
           </p>

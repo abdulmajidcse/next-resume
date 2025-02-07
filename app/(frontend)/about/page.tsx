@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -12,11 +10,11 @@ export default function About() {
     <>
       {/* about me */}
       <section className="section">
-        <h2 className="font-playfair-display text-slate-900 text-3xl uppercase font-bold gradient-text">
+        <h2 className="text-slate-900 text-3xl uppercase font-bold gradient-text">
           About
         </h2>
 
-        <div className="font-libre-baskerville text-lg text-slate-900 mt-7">
+        <div className="text-lg text-slate-900 mt-7">
           <p className="mb-5">Hi, I&apos;m Md Abdul Majid!</p>
           <p className="mb-5 font-black text-base">
             I&apos;m a software engineer for{" "}
@@ -106,20 +104,18 @@ export default function About() {
         </div>
       </section>
       {/* skills */}
-      <section className="section font-libre-baskerville">
-        <h2 className="text-slate-900 font-playfair-display text-4xl uppercase font-bold">
-          Skills
-        </h2>
+      <section className="section">
+        <h2 className="text-slate-900 text-4xl uppercase font-bold">Skills</h2>
         {/* professional experience */}
         <div className="mt-6">
-          <h3 className="font-lato uppercase font-bold text-xl text-slate-900">
+          <h3 className="uppercase font-bold text-xl text-slate-900">
             Professional Experience
           </h3>
-          <p className="font-libre-baskerville">
+          <p>
             I am professional on these Technologies. Most of the time I work on
             these.
           </p>
-          <div className="my-4 font-libre-baskerville">
+          <div className="my-4">
             <a
               href="https://www.php.net/"
               className="bg-slate-300/50 theme-text-color hover:text-purple-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2"

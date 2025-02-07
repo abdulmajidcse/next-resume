@@ -22,7 +22,7 @@ export default function Header() {
           >
             <ApplicationLogo />
           </Link>
-          <div className="flex gap-2 pr-4 md:pr-0 pb-8 md:pb-0 font-lato">
+          <div className="flex gap-2 pr-4 md:pr-0 pb-8 md:pb-0">
             <button
               data-collapse-toggle="navbar-dropdown"
               type="button"
@@ -65,7 +65,7 @@ export default function Header() {
           >
             <ul className="flex flex-col font-medium md:px-4 md:p-0 md:space-x-4 md:flex-row">
               <li className="md:hidden">
-                <span className="font-lato text-md uppercase font-extrabold text-slate-900 block py-4 md:py-2 md:px-2 rounded md:p-0">
+                <span className="text-md uppercase font-extrabold text-slate-900 block py-4 md:py-2 md:px-2 rounded md:p-0">
                   Menu
                 </span>
               </li>

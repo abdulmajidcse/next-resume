@@ -8,7 +8,7 @@
   }
 
   .footer {
-    @apply py-8 flex justify-center items-center text-center font-libre-baskerville text-base text-gray-500 border-t border-slate-900/10;
+    @apply py-8 px-1 flex justify-center items-center text-center text-sm text-gray-500 border-t border-slate-900/10;
   }
 
   .theme-text-color {
