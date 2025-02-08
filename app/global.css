@@ -28,8 +28,4 @@
     @apply text-white;
     text-shadow: .075em .075em 0px #057a55, -.075em -.075em 0px #069467;
   }
-
-  .theme-text-shadow {
-    @apply text-shadow-black hover:text-shadow-green;
-  }
 }

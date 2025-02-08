@@ -1,7 +1,7 @@
-const AppLogo = (props: { className?: string }) => {
+const AppLogo = () => {
   return (
-    <div className={`bg-black p-1 rounded-lg ${props.className}`}>
-      <span className="self-center text-3xl font-extrabold whitespace-nowrap theme-text-shadow tracking-tighter">
+    <div className="bg-black p-1 rounded-lg">
+      <span className="self-center text-3xl font-extrabold whitespace-nowrap text-white tracking-tighter">
         AM
       </span>
     </div>
