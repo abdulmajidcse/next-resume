@@ -51,12 +51,12 @@ export const metadata: Metadata = {
   creator: "Md. Abdul Majid",
   publisher: "Md. Abdul Majid",
   robots: "index, follow",
-  icons: "/abdulmajid.jpg",
+  icons: "/logo.png",
   twitter: {
     card: "summary",
     site: "https://abdulmajid.dev",
     creator: "@abdulmajidcse",
-    images: "https://abdulmajid.dev/abdulmajid.jpg",
+    images: "https://abdulmajid.dev/logo.png",
   },
 };
 
