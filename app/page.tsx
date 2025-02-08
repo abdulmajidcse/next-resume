@@ -144,7 +144,7 @@ export default function Home() {
           My Github Learning Resources
         </h2>
         <div className="mt-6">
-          <div className="flex flex-col gap-4 my-4 text-slate-900">
+          <div className="text-sm flex flex-col gap-4 my-4 text-slate-900">
             <p>
               <a
                 href="https://github.com/abdulmajidcse/data-structure-and-algorithm"
@@ -223,7 +223,7 @@ export default function Home() {
           My Youtube Learning Screencasts
         </h2>
         <div className="mt-6">
-          <div className="flex flex-col gap-10 my-4 text-slate-900">
+          <div className="text-sm flex flex-col gap-10 my-4 text-slate-900">
             <div>
               <iframe
                 width="100%"

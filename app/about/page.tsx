@@ -8,22 +8,18 @@ export default function About() {
   return (
     <>
       {/* about me */}
-      <section className="section">
-        <h2 className="text-slate-900 text-3xl uppercase font-bold gradient-text">
-          About
-        </h2>
-
-        <div className="text-lg text-slate-900 mt-7">
-          <p className="mb-5">Hi, I&apos;m Md Abdul Majid!</p>
-          <p className="mb-5 font-black text-base">
-            I&apos;m a software engineer for{" "}
-            <a
-              href="https://nogorsolutions.com"
-              className="theme-text-color font-black hover:underline"
-            >
-              Nogor Solutions Limited
-            </a>{" "}
-            in Dhaka, Bangladesh.
+      <section className="section text-sm">
+        <div className="text-slate-900 mt-7">
+          <p className="mb-5">Hi there 👋,</p>
+          <p className="mb-5">I&apos;m Md Abdul Majid.</p>
+          <p className="mb-5">
+            I&apos;m working as a Software Engineer focused on backend and
+            frontend. I&apos;m passionate about PHP and JavaScript. If you are
+            interested,{" "}
+            <a href="https://linkedin.com/in/abdulmajidcse" className="underline hover:theme-text-color">
+              send me a message
+            </a>
+            .{/* If you are interested, here&apos;s my CV ⏬. */}
           </p>
           <p className="mb-5">
             I am a backend-heavy full-stack developer and a self-learner. I am
@@ -103,11 +99,10 @@ export default function About() {
         </div>
       </section>
       {/* skills */}
-      <section className="section">
-        <h2 className="text-slate-900 text-3xl uppercase font-bold">Skills</h2>
+      <section className="section text-sm">
         {/* professional experience */}
         <div className="mt-6">
-          <h3 className="uppercase font-bold text-xl text-slate-900">
+          <h3 className="uppercase font-bold text-xl theme-text-color">
             Professional Experience
           </h3>
           <p>
@@ -209,13 +204,14 @@ export default function About() {
         </div>
       </section>
       {/* Experience */}
-      <section className="section">
+      <section className="section text-sm">
         <div className="mt-6">
           <p className="mb-5">
             I practice everyday when I get time to learn something new. I
-            beleive that knowledge is power. Technologry updates itself day by
-            day.
+            beleive that knowledge is power.
           </p>
+
+          <p className="mb-5">I&apos;m currently based in Dhaka, Bangladesh.</p>
         </div>
       </section>
     </>
