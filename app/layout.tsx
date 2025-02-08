@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "@/app/global.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -14,7 +16,15 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="en" className={`scroll-smooth ${jetBrainsMono.className}`}>
-      <body className="antialiased border-t-2 border-t-black">{children}</body>
+      <body className="antialiased border-t-2 border-t-black">
+        <div className="bg-white bg-center bg-repeat antialiased bg-[url('/dots.svg')]">
+          <Header />
+          <div className="max-w-[750px] mx-auto min-h-[calc(100vh-184px)]">
+            <main className="md:ml-8">{children}</main>
+          </div>
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 };

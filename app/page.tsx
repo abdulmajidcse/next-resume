@@ -1,6 +1,11 @@
-import Image from "next/image";
 import type { Metadata } from "next";
-import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export const metadata: Metadata = {
   title: "Home | Md Abdul Majid - Software Engineer",
@@ -11,37 +16,50 @@ export default function Home() {
     <>
       {/* about me */}
       <section className="section">
-        <div className="flex justify-center">
-          <Image
-            src="/abdulmajid.jpg"
-            alt="Abdul Majid"
-            width={200}
-            height={200}
-            className="rounded-full shadow-xl w-[200px] h-[200px] border-8 border-green-100"
-          />
-        </div>
-        <div className="text-center mt-2">
-          <h2 className="uppercase text-2xl font-medium">MD Abdul Majid</h2>
-          <p>Software Engineer</p>
+        <div>
+          <h2 className="text-3xl font-bold text-slate-800">Md Abdul Majid</h2>
+          <p className="text-sm">Software Engineer</p>
           <p>
             <a
               href="https://nogorsolutions.com"
-              className="theme-text-color font-black hover:underline"
+              className="theme-text-color font-black hover:underline text-sm"
             >
               @Nogor Solutions Limited
             </a>
           </p>
         </div>
         <div className="text-slate-900 mt-7">
-          <p className="mb-5">
-            I am a backend-heavy full-stack developer and a self-learner. I love
-            to share my knowledge, mostly technical. I enjoy learning new things
-            and building something new. I am experienced for more than four
-            years and working with ...{" "}
-            <Link href="/about" className="theme-text-color underline">
-              read more
-            </Link>
-          </p>
+          <div>
+            Find me on{" "}
+            <a
+              href="https://github.com/abdulmajidcse"
+              className="hover:theme-text-color"
+            >
+              <FontAwesomeIcon icon={faGithub} className="w-4 inline" />
+            </a>
+            ,{" "}
+            <a
+              href="https://linkedin.com/in/abdulmajidcse"
+              className="hover:theme-text-color"
+            >
+              <FontAwesomeIcon icon={faLinkedin} className="w-4 inline" />
+            </a>
+            ,{" "}
+            <a
+              href="https://x.com/abdulmajidcse"
+              className="hover:theme-text-color"
+            >
+              <FontAwesomeIcon icon={faXTwitter} className="w-4 inline" />
+            </a>
+            , and{" "}
+            <a
+              href="https://facebook.com/abdulmajidcse"
+              className="hover:theme-text-color"
+            >
+              <FontAwesomeIcon icon={faFacebook} className="w-4 inline" />
+            </a>
+            .
+          </div>
         </div>
       </section>
 
@@ -55,7 +73,7 @@ export default function Home() {
             <p>
               <a
                 href="https://abdulmajidcse.medium.com/mastering-in-docker-and-setup-development-environment-for-reactjs-vuejs-laravel-and-more-5cfe18b8a420"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 Mastering in Docker and setup development environment for
                 ReactJS, VueJS, Laravel, and more
@@ -65,7 +83,7 @@ export default function Home() {
             <p>
               <a
                 href="https://abdulmajidcse.medium.com/mastering-custom-mail-transport-in-laravel-ba3291a28854"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 Mastering Custom Mail Transport in Laravel
               </a>
@@ -74,7 +92,7 @@ export default function Home() {
             <p>
               <a
                 href="https://abdulmajidcse.medium.com/it-feels-like-a-flipbook-through-a-pdf-when-viewerjs-be55e7549347"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 It feels like a flipbook through a PDF when ViewerJS
               </a>
@@ -83,7 +101,7 @@ export default function Home() {
             <p>
               <a
                 href="https://abdulmajidcse.medium.com/vuejs-form-validation-with-yupjs-b976f79e7f65"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 VueJS form validation with YupJS
               </a>
@@ -92,7 +110,7 @@ export default function Home() {
             <p>
               <a
                 href="https://abdulmajidcse.medium.com/setup-laravel-and-vuejs-application-544adb9074f4"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 Setup Laravel and VueJS application
               </a>
@@ -101,7 +119,7 @@ export default function Home() {
             <p>
               <a
                 href="https://abdulmajidcse.medium.com/laravel-custom-pagination-for-orm-query-builder-collection-or-array-e797259cade6"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 Laravel Custom Pagination for ORM, Query Builder, Collection, or
                 Array
@@ -111,20 +129,11 @@ export default function Home() {
             <p>
               <a
                 href="https://abdulmajidcse.medium.com/detect-bot-visit-in-your-laravel-application-1c9b1cb7117d"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 Detect “Bot Visit” in your Laravel application
               </a>
             </p>
-          </div>
-
-          <div className="flex justify-center mt-8">
-            <a
-              href="https://abdulmajidcse.medium.com/"
-              className="theme-button w-full font-bold"
-            >
-              See All My Medium Stories
-            </a>
           </div>
         </div>
       </section>
@@ -135,11 +144,11 @@ export default function Home() {
           My Github Learning Resources
         </h2>
         <div className="mt-6">
-          <div className="text-sm flex flex-col gap-4 my-4 text-slate-900">
+          <div className="flex flex-col gap-4 my-4 text-slate-900">
             <p>
               <a
                 href="https://github.com/abdulmajidcse/data-structure-and-algorithm"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 Data Structure and Algorithm (PHP, NodeJS, and Python)
               </a>
@@ -148,7 +157,7 @@ export default function Home() {
             <p>
               <a
                 href="https://github.com/abdulmajidcse/docker-practice"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 Docker Practice for your development (PHP, NodeJS, Python,
                 Laravel, Wordpress, ReactJS, VueJS, and more)
@@ -158,7 +167,7 @@ export default function Home() {
             <p>
               <a
                 href="https://github.com/abdulmajidcse/covid-vaccine"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 A Simple COVID Vaccine Registration System where people can
                 register, get vaccine and so more (Laravel & VueJS)
@@ -168,7 +177,7 @@ export default function Home() {
             <p>
               <a
                 href="https://github.com/abdulmajidcse/tiny-ecommerce"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 A small ecommerce website where user can place an order and also
                 admin can manage order. It&apos;s a very small but full
@@ -179,7 +188,7 @@ export default function Home() {
             <p>
               <a
                 href="https://github.com/abdulmajidcse/talktoapi"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 TalktoAPI is an open-source API provider like JSON Placeholder.
                 TalktoAPI provides you several kinds of API, such as CRUD, Blog
@@ -190,7 +199,7 @@ export default function Home() {
             <p>
               <a
                 href="https://github.com/abdulmajidcse/expressjs-practice"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 A Simple ExpressJS practice resource where you may get idea
                 about CRUD, Authentication, Validation, File upload and more
@@ -200,24 +209,14 @@ export default function Home() {
             <p>
               <a
                 href="https://github.com/abdulmajidcse/multi-auth-laravel-7"
-                className="hover:underline decoration-purple-800"
+                className="hover:underline decoration-green-600"
               >
                 Multi Authentication System using different guard in Laravel
               </a>
             </p>
           </div>
-
-          <div className="flex justify-center mt-8 mb-5">
-            <a
-              href="https://github.com/abdulmajidcse?tab=repositories"
-              className="theme-button w-full font-bold"
-            >
-              See All My Github Public Repositories
-            </a>
-          </div>
         </div>
       </section>
-
       {/* my learning screencasts */}
       <section className="section">
         <h2 className="theme-text-color text-xl font-bold">
@@ -237,7 +236,6 @@ export default function Home() {
                 allowFullScreen
               ></iframe>
             </div>
-
             <div>
               <iframe
                 width="100%"
@@ -250,7 +248,6 @@ export default function Home() {
                 allowFullScreen
               ></iframe>
             </div>
-
             <div>
               <iframe
                 width="100%"
@@ -263,15 +260,6 @@ export default function Home() {
                 allowFullScreen
               ></iframe>
             </div>
-          </div>
-
-          <div className="flex justify-center mt-8">
-            <a
-              href="https://www.youtube.com/@AbdulMajidCSE"
-              className="theme-button w-full font-bold"
-            >
-              See All My Youtube Learning Screencasts
-            </a>
           </div>
         </div>
       </section>

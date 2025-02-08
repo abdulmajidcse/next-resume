@@ -1,6 +1,6 @@
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-[calc(100vh-184px)] flex items-center justify-center">
       <div className="pr-4 text-lg text-gray-500 border-r border-gray-400 tracking-wider">
         404{" "}
       </div>
