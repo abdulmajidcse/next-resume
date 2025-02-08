@@ -1,4 +1,4 @@
-const ApplicationLogo = (props: { className?: string }) => {
+const AppLogo = (props: { className?: string }) => {
   const { className = "" } = props;
   return (
     <span
@@ -9,4 +9,4 @@ const ApplicationLogo = (props: { className?: string }) => {
   );
 };
 
-export default ApplicationLogo;
+export default AppLogo;

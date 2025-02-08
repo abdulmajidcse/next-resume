@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import ApplicationLogo from "@/components/ApplicationLogo";
+import AppLogo from "@/components/AppLogo";
 
 export default function Header() {
   const pathname = usePathname();
@@ -20,7 +20,7 @@ export default function Header() {
             href="/"
             className="ml-4 md:ml-0 mb-8 md:mb-0 text-slate-800 hover:text-slate-500"
           >
-            <ApplicationLogo />
+            <AppLogo />
           </Link>
           <div className="flex gap-2 pr-4 md:pr-0 pb-8 md:pb-0">
             <button
@@ -69,55 +69,24 @@ export default function Header() {
                   Menu
                 </span>
               </li>
-              <li>
+              <li className="border-t border-slate-300 md:border-t-0">
                 <Link
                   href="/"
-                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 hover:text-green-500 ${
                     pathname === "/" && "font-extrabold theme-text-color"
                   }`}
                 >
                   Home
                 </Link>
               </li>
-              <li>
+              <li className="border-t border-slate-300 md:border-t-0">
                 <Link
                   href="/about"
-                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
+                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 hover:text-green-500 ${
                     pathname === "/about" && "font-extrabold theme-text-color"
                   }`}
                 >
                   About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/socials"
-                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
-                    pathname === "/socials" && "font-extrabold theme-text-color"
-                  }`}
-                >
-                  Socials
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/projects"
-                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
-                    pathname === "/projects" &&
-                    "font-extrabold theme-text-color"
-                  }`}
-                >
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 border-t border-slate-900 md:border-t-0 hover:text-purple-600 ${
-                    pathname === "/contact" && "font-extrabold theme-text-color"
-                  }`}
-                >
-                  Contact
                 </Link>
               </li>
             </ul>

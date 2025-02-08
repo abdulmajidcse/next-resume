@@ -12,11 +12,11 @@
   }
 
   .theme-text-color {
-    @apply text-purple-800;
+    @apply text-green-600;
   }
 
   .theme-button {
-    @apply text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+    @apply text-white bg-gradient-to-r from-green-300 via-green-400 to-green-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-400 shadow-lg shadow-green-300/50 dark:shadow-lg dark:shadow-green-400/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
   }
 
   .text-shadow-black {
@@ -24,12 +24,12 @@
     text-shadow: .075em .075em 0px #1f2937, -.075em -.075em 0px #1f2937;
   }
 
-  .text-shadow-purple {
+  .text-shadow-green {
     @apply text-white;
-    text-shadow: .075em .075em 0px #7e22ce, -.075em -.075em 0px #9333ea;
+    text-shadow: .075em .075em 0px #057a55, -.075em -.075em 0px #069467;
   }
 
   .theme-text-shadow {
-    @apply text-shadow-black hover:text-shadow-purple;
+    @apply text-shadow-black hover:text-shadow-green;
   }
 }

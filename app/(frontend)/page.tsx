@@ -15,9 +15,9 @@ export default function Home() {
           <Image
             src="/abdulmajid.jpg"
             alt="Abdul Majid"
-            width={250}
-            height={250}
-            className="rounded-full shadow-xl w-[250px] h-[250px] border-[0.5rem] border-slate-100"
+            width={200}
+            height={200}
+            className="rounded-full shadow-xl w-[200px] h-[200px] border-8 border-green-100"
           />
         </div>
         <div className="text-center mt-2">

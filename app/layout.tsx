@@ -14,7 +14,7 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="en" className={`scroll-smooth ${jetBrainsMono.className}`}>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased border-t-2 border-t-black">{children}</body>
     </html>
   );
 };
