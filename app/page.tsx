@@ -3,9 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faGithub,
+  faHackerrank,
   faLinkedin,
+  faMedium,
   faXTwitter,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 export const metadata: Metadata = {
   title: "Home | Md Abdul Majid - Software Engineer",
@@ -50,6 +54,34 @@ export default function Home() {
               className="hover:theme-text-color"
             >
               <FontAwesomeIcon icon={faXTwitter} className="w-4 inline" />
+            </a>
+            ,{" "}
+            <a
+              href="https://abdulmajidcse.medium.com"
+              className="hover:theme-text-color"
+            >
+              <FontAwesomeIcon icon={faMedium} className="w-4 inline" />
+            </a>
+            ,{" "}
+            <a
+              href="https://www.youtube.com/@AbdulMajidCSE"
+              className="hover:theme-text-color"
+            >
+              <FontAwesomeIcon icon={faYoutube} className="w-4 inline" />
+            </a>
+            ,{" "}
+            <a
+              href="https://www.hackerrank.com/profile/abdulmajidcse"
+              className="hover:theme-text-color"
+            >
+              <FontAwesomeIcon icon={faHackerrank} className="w-4 inline" />
+            </a>
+            ,{" "}
+            <a
+              href="https://leetcode.com/u/abdulmajidcse"
+              className="hover:theme-text-color"
+            >
+              <FontAwesomeIcon icon={faCode} className="w-4 inline" />
             </a>
             , and{" "}
             <a
