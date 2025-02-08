@@ -191,6 +191,53 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contributions */}
+      <section className="section">
+        <h2 className="theme-text-color text-xl font-bold">Contributions</h2>
+        <div className="mt-6">
+          <div className="text-sm flex flex-col gap-4 my-4 text-slate-900">
+            <p>
+              <a
+                href="https://packagist.org/packages/abdulmajidcse/code-mask"
+                className="underline hover:theme-text-color decoration-green-600"
+              >
+                Code Mask
+              </a>
+              : This is a simple PHP library that help you to manipulate your
+              data. It has also a Laravel package called{" "}
+              <a
+                href="https://packagist.org/packages/abdulmajidcse/laravel-code-mask"
+                className="underline hover:theme-text-color decoration-green-600"
+              >
+                Laravel Code Mask
+              </a>
+              .
+            </p>
+
+            <p>
+              <a
+                href="https://github.com/abdulmajidcse/talktoapi"
+                className="underline hover:theme-text-color decoration-green-600"
+              >
+                TalktoAPI
+              </a>
+              : TalktoAPI is an open-source API provider like{" "}
+              <a
+                href="https://jsonplaceholder.typicode.com/"
+                className="underline hover:theme-text-color decoration-green-600"
+              >
+                JSON Placeholder
+              </a>
+              . TalktoAPI provides you several kinds of API, such as CRUD, Blog
+              and eCommerce. The main goal of TalktoAPI is to provide API to
+              beginners when they learn the frontend frameworks like (VUE,
+              React, Angular). So that they don&apos;t need to create API in
+              learning time.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* my popular medium stories */}
       <section className="section">
         <h2 className="theme-text-color text-xl font-bold">
@@ -278,7 +325,7 @@ export default function Home() {
                 href="https://github.com/abdulmajidcse/data-structure-and-algorithm"
                 className="hover:underline decoration-green-600"
               >
-                Data Structure and Algorithm (PHP, NodeJS, and Python)
+                Data Structure and Algorithm
               </a>
             </p>
 
