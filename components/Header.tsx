@@ -14,15 +14,16 @@ export default function Header() {
 
   return (
     <>
-      <nav className="pt-6 md:p-6 border-b border-slate-900/10">
+      <nav
+        className={`py-2 ${
+          mobileMenuOpenIs && "pb-0"
+        } bg-white/50 backdrop-saturate-150 backdrop-blur-sm border-t-2 border-t-black border-b border-slate-900/10 sticky top-0`}
+      >
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
-          <Link
-            href="/"
-            className="ml-4 md:ml-0 mb-8 md:mb-0 text-slate-800 hover:text-slate-500"
-          >
+          <Link href="/" className="ml-4 text-slate-800 hover:text-slate-500">
             <AppLogo />
           </Link>
-          <div className="flex gap-2 pr-4 md:pr-0 pb-8 md:pb-0">
+          <div className="flex gap-2 pr-4 md:pr-0">
             <button
               data-collapse-toggle="navbar-dropdown"
               type="button"
@@ -60,7 +61,7 @@ export default function Header() {
           <div
             className={`${
               !mobileMenuOpenIs && "hidden"
-            } w-full md:block md:w-auto px-5 md:px-0 bg-slate-100 md:bg-inherit border-t md:border-t-0 border-slate-900/10`}
+            } w-full md:block md:w-auto mt-2 md:mt-0 px-5 md:px-0 bg-slate-100 md:bg-inherit border-t md:border-t-0 border-slate-900/10`}
             id="navbar-dropdown"
           >
             <ul className="flex flex-col font-medium md:px-4 md:p-0 md:space-x-4 md:flex-row">

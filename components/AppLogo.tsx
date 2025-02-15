@@ -4,8 +4,8 @@ const AppLogo = () => {
   return (
     <Image
       src="/logo.png"
-      width={211}
-      height={225}
+      width={212}
+      height={212}
       className="w-10 h-auto"
       alt="AM"
     />

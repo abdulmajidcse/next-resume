@@ -16,7 +16,7 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="en" className={`scroll-smooth ${jetBrainsMono.className}`}>
-      <body className="antialiased border-t-2 border-t-black">
+      <body className="antialiased">
         <div className="bg-white bg-center bg-repeat antialiased bg-[url('/dots.svg')]">
           <Header />
           <div className="max-w-[750px] mx-auto min-h-[calc(100vh-184px)]">
