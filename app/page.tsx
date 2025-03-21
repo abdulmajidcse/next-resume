@@ -23,14 +23,14 @@ export default function Home() {
         <div>
           <h2 className="text-3xl font-bold text-slate-800">Md Abdul Majid</h2>
           <p className="text-sm">Software Engineer</p>
-          <p>
+          {/* <p>
             <a
               href="https://nogorsolutions.com"
               className="theme-text-color font-black hover:underline text-sm"
             >
               @Nogor Solutions Limited
             </a>
-          </p>
+          </p> */}
         </div>
         <div className="text-slate-900 mt-7">
           <div>
@@ -38,6 +38,7 @@ export default function Home() {
             <a
               href="https://github.com/abdulmajidcse"
               className="hover:theme-text-color"
+              title="Github"
             >
               <FontAwesomeIcon icon={faGithub} className="w-4 inline" />
             </a>
@@ -45,20 +46,15 @@ export default function Home() {
             <a
               href="https://linkedin.com/in/abdulmajidcse"
               className="hover:theme-text-color"
+              title="Linkedin"
             >
               <FontAwesomeIcon icon={faLinkedin} className="w-4 inline" />
             </a>
             ,{" "}
             <a
-              href="https://x.com/abdulmajidcse"
-              className="hover:theme-text-color"
-            >
-              <FontAwesomeIcon icon={faXTwitter} className="w-4 inline" />
-            </a>
-            ,{" "}
-            <a
               href="https://abdulmajidcse.medium.com"
               className="hover:theme-text-color"
+              title="Medium"
             >
               <FontAwesomeIcon icon={faMedium} className="w-4 inline" />
             </a>
@@ -66,10 +62,19 @@ export default function Home() {
             <a
               href="https://www.youtube.com/@AbdulMajidCSE"
               className="hover:theme-text-color"
+              title="Youtube"
             >
               <FontAwesomeIcon icon={faYoutube} className="w-4 inline" />
             </a>
             ,{" "}
+            <a
+              href="https://x.com/abdulmajidcse"
+              className="hover:theme-text-color"
+              title="X/Twitter"
+            >
+              <FontAwesomeIcon icon={faXTwitter} className="w-4 inline" />
+            </a>
+            {/* ,{" "}
             <a
               href="https://www.hackerrank.com/profile/abdulmajidcse"
               className="hover:theme-text-color"
@@ -82,11 +87,12 @@ export default function Home() {
               className="hover:theme-text-color"
             >
               <FontAwesomeIcon icon={faCode} className="w-4 inline" />
-            </a>
+            </a> */}
             , and{" "}
             <a
               href="https://facebook.com/abdulmajidcse"
               className="hover:theme-text-color"
+              title="Facebook"
             >
               <FontAwesomeIcon icon={faFacebook} className="w-4 inline" />
             </a>
