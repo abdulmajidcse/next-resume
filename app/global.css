@@ -28,4 +28,8 @@
     @apply text-white;
     text-shadow: .075em .075em 0px #057a55, -.075em -.075em 0px #069467;
   }
+
+  .prof-btn {
+    @apply bg-slate-300/50 theme-text-color hover:text-green-500 px-2 py-1 rounded transition-all duration-300 inline-block mr-1 mb-2;
+  }
 }

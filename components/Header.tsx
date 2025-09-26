@@ -81,14 +81,12 @@ export default function Header() {
                 </Link>
               </li>
               <li className="border-t border-slate-300 md:border-t-0">
-                <Link
-                  href="/about"
-                  className={`block py-4 md:py-2 md:px-2 rounded md:p-0 hover:text-green-500 ${
-                    pathname === "/about" && "font-extrabold theme-text-color"
-                  }`}
+                <a
+                  href="https://abdulmajidcse.medium.com/"
+                  className="block py-4 md:py-2 md:px-2 rounded md:p-0 hover:text-green-500"
                 >
-                  About
-                </Link>
+                  Blog
+                </a>
               </li>
             </ul>
           </div>

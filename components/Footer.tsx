@@ -18,9 +18,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="pl-3">
-                <Link href="/about" className="hover:text-green-500 underline">
-                  About
-                </Link>
+                <a
+                  href="https://abdulmajidcse.medium.com/"
+                  className="hover:text-green-500 underline"
+                >
+                  Blog
+                </a>
               </li>
             </ul>
           </div>

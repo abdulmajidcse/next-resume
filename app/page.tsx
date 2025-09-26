@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faGithub,
-  faHackerrank,
   faLinkedin,
   faMedium,
   faXTwitter,
@@ -23,14 +22,14 @@ export default function Home() {
         <div>
           <h2 className="text-3xl font-bold text-slate-800">Md Abdul Majid</h2>
           <p className="text-sm">Software Engineer</p>
-          {/* <p>
+          <p>
             <a
-              href="https://nogorsolutions.com"
+              href="https://stepup.com.bd/"
               className="theme-text-color font-black hover:underline text-sm"
             >
-              @Nogor Solutions Limited
+              @StepUp Technology Limited
             </a>
-          </p> */}
+          </p>
         </div>
         <div className="text-slate-900 mt-7">
           <div>
@@ -74,20 +73,14 @@ export default function Home() {
             >
               <FontAwesomeIcon icon={faXTwitter} className="w-4 inline" />
             </a>
-            {/* ,{" "}
-            <a
-              href="https://www.hackerrank.com/profile/abdulmajidcse"
-              className="hover:theme-text-color"
-            >
-              <FontAwesomeIcon icon={faHackerrank} className="w-4 inline" />
-            </a>
             ,{" "}
             <a
-              href="https://leetcode.com/u/abdulmajidcse"
+              href="https://codeforces.com/profile/abdulmajidcse"
               className="hover:theme-text-color"
+              title="Codeforces"
             >
               <FontAwesomeIcon icon={faCode} className="w-4 inline" />
-            </a> */}
+            </a>
             , and{" "}
             <a
               href="https://facebook.com/abdulmajidcse"
@@ -101,145 +94,191 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Projects */}
-      <section className="section">
-        <h2 className="theme-text-color text-xl font-bold">Projects</h2>
-        <div className="mt-6">
-          <div className="text-sm flex flex-col gap-4 my-4 text-slate-900">
-            <p>
-              <a
-                href="https://lib.bim.gov.bd"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                BIM Library
-              </a>
-              : It&apos;s a Library Management System. It is also a smart LMS
-              System where you may simplify your workflow, easy cataloging to
-              seamless eBook migration and all! It is a automated, RFID &
-              barcode system, instant & various types of reports, cataloging,
-              patron management, migration of eBook from Koha, circulation
-              management, integration with e-content library and more.
-            </p>
-
-            <p>
-              <a
-                href="http://203.82.196.38"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                Naasa Group ERP
-              </a>
-              : A modern and reliable ERP for{" "}
-              <a
-                href="https://nassa.com.bd"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                Naasa Group
-              </a>{" "}
-              where they work on Garment Manufacturing, Banking, Real Estate,
-              Stock Brokering, Education and Travel and most importantly
-              Corporate Social Responsibility.
-            </p>
-
-            <p>
-              <a
-                href="https://aosed.org"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                Aosed
-              </a>
-              : A modern and smart website & HRM management system for Aosed. It
-              has a content management system and HRM management.
-            </p>
-
-            <p>
-              <a
-                href="https://cricket97.com"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                Cricket97
-              </a>
-              : An online newspaper website based on Cricket. It has a modern,
-              reliable and & effecient CMS for newspaper.
-            </p>
-
-            <p>
-              <a
-                href="https://fulyco.us"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                Fulyco
-              </a>
-              : It is a on demand gas delivery service and based on USA.
-            </p>
-
-            <p>
-              <a
-                href="https://examcare24.com"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                Examcare24
-              </a>
-              : An online based exam management system and fully automated,
-              exam, results, reports, payment system and more.
-            </p>
-
-            <p>
-              <a
-                href="https://studio23.com.bd"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                Studio23
-              </a>
-              : A hotel website where it represents about hotel, services,
-              simple booking feature, and more.
-            </p>
-          </div>
+      {/* about me */}
+      <section className="section text-sm">
+        <div className="text-slate-900 mt-7">
+          <p className="mb-5">
+            I&apos;m working as a Software Engineer focused on backend and
+            frontend. I&apos;m passionate about PHP and JavaScript. If you are
+            interested,{" "}
+            <a
+              href="https://linkedin.com/in/abdulmajidcse"
+              className="underline hover:theme-text-color"
+            >
+              send me a message
+            </a>
+            .{/* If you are interested, here&apos;s my CV ⏬. */}
+          </p>
+          <p className="mb-5">
+            I am a backend-heavy full-stack developer and a self-learner. I am
+            experienced for more than four years and working with{" "}
+            <a
+              href="https://laravel.com"
+              className="theme-text-color font-bold hover:underline"
+            >
+              Laravel
+            </a>
+            ,{" "}
+            <a
+              href="https://laravel-livewire.com"
+              className="theme-text-color font-bold hover:underline"
+            >
+              Livewire
+            </a>
+            ,{" "}
+            <a
+              href="https://jquery.com/"
+              className="theme-text-color font-bold hover:underline"
+            >
+              jQuery
+            </a>
+            , and{" "}
+            <a
+              href="https://alpinejs.dev/"
+              className="theme-text-color font-bold hover:underline"
+            >
+              AlpineJS
+            </a>
+            . I am also experienced in{" "}
+            <a
+              href="https://vuejs.org/"
+              className="theme-text-color font-bold hover:underline"
+            >
+              VueJS
+            </a>
+            ,{" "}
+            <a
+              href="https://react.dev/"
+              className="theme-text-color font-bold hover:underline"
+            >
+              ReactJS
+            </a>
+            ,{" "}
+            <a
+              href="https://laravel.com/docs/10.x/queues"
+              className="theme-text-color font-bold hover:underline"
+            >
+              Queue
+            </a>
+            ,{" "}
+            <a
+              href="https://laravel.com/docs/10.x/scheduling"
+              className="theme-text-color font-bold hover:underline"
+            >
+              Task Scheduling
+            </a>
+            , VPS Server, CI/CD, and Docker (Basic). I love the beauty of{" "}
+            <a
+              href="https://laravel.com/docs/10.x/eloquent"
+              className="theme-text-color font-bold hover:underline"
+            >
+              Laravel ORM
+            </a>
+            .
+          </p>
+          <p className="mb-5">
+            My aim is to bring across your message and identity in the most
+            creative way.
+          </p>
+          <p className="mb-5">
+            I love to share my knowledge, mostly technical. I enjoy learning new
+            things and building something new.
+          </p>
         </div>
       </section>
-
-      {/* Contributions */}
-      <section className="section">
-        <h2 className="theme-text-color text-xl font-bold">Contributions</h2>
+      {/* skills */}
+      <section className="section text-sm">
+        {/* professional experience */}
         <div className="mt-6">
-          <div className="text-sm flex flex-col gap-4 my-4 text-slate-900">
-            <p>
-              <a
-                href="https://packagist.org/packages/abdulmajidcse/code-mask"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                Code Mask
-              </a>
-              : This is a simple PHP library that help you to manipulate your
-              data. It has also a Laravel package called{" "}
-              <a
-                href="https://packagist.org/packages/abdulmajidcse/laravel-code-mask"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                Laravel Code Mask
-              </a>
-              .
-            </p>
-
-            <p>
-              <a
-                href="https://github.com/abdulmajidcse/talktoapi"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                TalktoAPI
-              </a>
-              : TalktoAPI is an open-source API provider like{" "}
-              <a
-                href="https://jsonplaceholder.typicode.com/"
-                className="underline hover:theme-text-color decoration-green-600"
-              >
-                JSON Placeholder
-              </a>
-              . TalktoAPI provides you several kinds of API, such as CRUD, Blog
-              and eCommerce. The main goal of TalktoAPI is to provide API to
-              beginners when they learn the frontend frameworks like (VUE,
-              React, Angular). So that they don&apos;t need to create API in
-              learning time.
-            </p>
+          <h3 className="uppercase font-bold text-xl theme-text-color">
+            Professional Experience
+          </h3>
+          <p>
+            I am professional on these Technologies. Most of the time I work on
+            these.
+          </p>
+          <div className="my-4">
+            <a
+              href="https://en.wikipedia.org/wiki/Software_as_a_service"
+              className="prof-btn"
+            >
+              Specializing in SaaS
+            </a>
+            <a
+              href="https://en.wikipedia.org/wiki/Enterprise_resource_planning"
+              className="prof-btn"
+            >
+              ERP
+            </a>
+            <a href="https://www.php.net/" className="prof-btn">
+              PHP
+            </a>
+            <a href="https://www.mysql.com/" className="prof-btn">
+              MySQL
+            </a>
+            <a href="https://laravel.com/" className="prof-btn">
+              Laravel
+            </a>
+            <a href="https://laravel-livewire.com/" className="prof-btn">
+              Livewire
+            </a>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              className="prof-btn"
+            >
+              JavaScript
+            </a>
+            <a href="https://jquery.com/" className="prof-btn">
+              jQuery
+            </a>
+            <a href="https://vuejs.org/" className="prof-btn">
+              VueJS
+            </a>
+            <a href="https://react.dev/" className="prof-btn">
+              ReactJS
+            </a>
+            <a href="https://inertiajs.com/" className="prof-btn">
+              InertiaJS
+            </a>
+            <a href="https://www.typescriptlang.org/" className="prof-btn">
+              TypeScript
+            </a>
+            <a href="https://getbootstrap.com/" className="prof-btn">
+              Bootstrap
+            </a>
+            <a href="https://tailwindcss.com/" className="prof-btn">
+              TailwindCSS
+            </a>
+            <a href="https://git-scm.com/" className="prof-btn">
+              Git
+            </a>
+            <a
+              href="https://dev.mysql.com/downloads/workbench/"
+              className="prof-btn"
+            >
+              Database Design
+            </a>
+            <a
+              href="https://laravel.com/docs/12.x/installation#laravel-the-api-backend"
+              className="prof-btn"
+            >
+              API Development
+            </a>
+            <a href="https://laravel.com/docs/12.x/queues" className="prof-btn">
+              Queue
+            </a>
+            <a
+              href="https://laravel.com/docs/12.x/scheduling"
+              className="prof-btn"
+            >
+              Task Scheduling
+            </a>
+            <a href="https://aws.amazon.com/what-is/vps/" className="prof-btn">
+              VPS Server
+            </a>
+            <a href="https://www.docker.com/" className="prof-btn">
+              Docker
+            </a>
           </div>
         </div>
       </section>
