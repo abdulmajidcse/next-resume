@@ -22,14 +22,14 @@ export default function Home() {
         <div>
           <h2 className="text-3xl font-bold text-slate-800">Md Abdul Majid</h2>
           <p className="text-sm">Software Engineer</p>
-          <p>
+          {/* <p>
             <a
-              href="https://stepup.com.bd/"
+              href="https://example.com/"
               className="theme-text-color font-black hover:underline text-sm"
             >
-              @StepUp Technology Limited
+              @your_company
             </a>
-          </p>
+          </p> */}
         </div>
         <div className="text-slate-900 mt-7">
           <div>
