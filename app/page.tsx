@@ -100,11 +100,14 @@ export default function Home() {
           <p className="mb-5">
             I am an enthusiastic Software Engineer with a strong background in
             developing efficient software solutions. My experience spans across
-            various technologies including Laravel, PostgreSQL, Vue.js, and
-            React.js, where I have effectively optimized workflows and enhanced
-            operational efficiency for clients. I pride myself on my
-            collaborative skills, leading development teams, and delivering
-            high-quality products.
+            various technologies including <strong>Laravel</strong>,{" "}
+            <strong>PostgreSQL</strong>, <strong>VueJS</strong>, and{" "}
+            <strong>ReactJS</strong>, where I have effectively{" "}
+            <strong>optimized workflows</strong> and enhanced{" "}
+            <strong>operational efficiency</strong> for clients. I pride myself
+            on my collaborative skills,{" "}
+            <strong>leading development teams</strong>, and delivering{" "}
+            <strong>high-quality</strong> products.
           </p>
           <p className="mb-5">
             I love to share my knowledge, mostly technical. I enjoy learning new
