@@ -21,7 +21,7 @@ export default function Home() {
       <section className="section">
         <div>
           <h2 className="text-3xl font-bold text-slate-800">Md Abdul Majid</h2>
-          <p className="text-sm">Software Engineer</p>
+          <p className="text-sm">Full-Stack Developer</p>
           {/* <p>
             <a
               href="https://example.com/"
@@ -98,87 +98,13 @@ export default function Home() {
       <section className="section text-sm">
         <div className="text-slate-900 mt-7">
           <p className="mb-5">
-            I&apos;m working as a Software Engineer focused on backend and
-            frontend. I&apos;m passionate about PHP and JavaScript. If you are
-            interested,{" "}
-            <a
-              href="https://linkedin.com/in/abdulmajidcse"
-              className="underline hover:theme-text-color"
-            >
-              send me a message
-            </a>
-            .{/* If you are interested, here&apos;s my CV ⏬. */}
-          </p>
-          <p className="mb-5">
-            I am a backend-heavy full-stack developer and a self-learner. I am
-            experienced for more than four years and working with{" "}
-            <a
-              href="https://laravel.com"
-              className="theme-text-color font-bold hover:underline"
-            >
-              Laravel
-            </a>
-            ,{" "}
-            <a
-              href="https://laravel-livewire.com"
-              className="theme-text-color font-bold hover:underline"
-            >
-              Livewire
-            </a>
-            ,{" "}
-            <a
-              href="https://jquery.com/"
-              className="theme-text-color font-bold hover:underline"
-            >
-              jQuery
-            </a>
-            , and{" "}
-            <a
-              href="https://alpinejs.dev/"
-              className="theme-text-color font-bold hover:underline"
-            >
-              AlpineJS
-            </a>
-            . I am also experienced in{" "}
-            <a
-              href="https://vuejs.org/"
-              className="theme-text-color font-bold hover:underline"
-            >
-              VueJS
-            </a>
-            ,{" "}
-            <a
-              href="https://react.dev/"
-              className="theme-text-color font-bold hover:underline"
-            >
-              ReactJS
-            </a>
-            ,{" "}
-            <a
-              href="https://laravel.com/docs/10.x/queues"
-              className="theme-text-color font-bold hover:underline"
-            >
-              Queue
-            </a>
-            ,{" "}
-            <a
-              href="https://laravel.com/docs/10.x/scheduling"
-              className="theme-text-color font-bold hover:underline"
-            >
-              Task Scheduling
-            </a>
-            , VPS Server, CI/CD, and Docker (Basic). I love the beauty of{" "}
-            <a
-              href="https://laravel.com/docs/10.x/eloquent"
-              className="theme-text-color font-bold hover:underline"
-            >
-              Laravel ORM
-            </a>
-            .
-          </p>
-          <p className="mb-5">
-            My aim is to bring across your message and identity in the most
-            creative way.
+            I am an enthusiastic Software Engineer with a strong background in
+            developing efficient software solutions. My experience spans across
+            various technologies including Laravel, PostgreSQL, Vue.js, and
+            React.js, where I have effectively optimized workflows and enhanced
+            operational efficiency for clients. I pride myself on my
+            collaborative skills, leading development teams, and delivering
+            high-quality products.
           </p>
           <p className="mb-5">
             I love to share my knowledge, mostly technical. I enjoy learning new
